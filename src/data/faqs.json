@@ -1,49 +1,102 @@
 [
-  { "q": "Is Swiss German University accredited by BAN-PT?", "a": "Yes. SGU is accredited by BAN-PT, and several programs hold \"A\" and \"B\" accreditations." },
-  { "q": "Is SGU’s degree recognized internationally?", "a": "Yes. Through the double-degree program, graduates receive one degree from SGU and one from a European partner university." },
-  { "q": "How is SGU’s reputation compared to other private universities in Indonesia?", "a": "SGU is known for international-standard programs taught in English, mandatory double degree abroad, and two internships, which strengthens its reputation." },
-  { "q": "Which partner universities/countries are available for the double degree program?", "a": "Primarily partner universities in Germany, Switzerland, and Austria (varies by program)." },
-  { "q": "Are there SGU alumni who have succeeded internationally?", "a": "Yes. Many alumni work in multinational companies and global organizations; the double-degree and internship pathways support international outcomes." },
-  { "q": "What study programs are offered at SGU?", "a": "Undergraduate programs in Engineering, Information Technology, Business & Management, Life Sciences, and Social Sciences (with multiple specializations)." },
-  { "q": "How does major selection work? Can students change after the first semester?", "a": "Students typically select a major at entry. Changing majors after the first semester may be approved on a case-by-case basis." },
-  { "q": "What makes SGU’s learning system different?", "a": "Courses are taught in English, double-degree abroad is mandatory, and students complete two internships (domestic and abroad)." },
-  { "q": "Are the lecturers mostly from overseas?", "a": "Many lecturers have international backgrounds and industry/research experience; mix varies by program." },
-  { "q": "Are some majors more competitive than others?", "a": "Yes. Competitiveness depends on intake capacities and interest; check current admissions updates per program." },
-  { "q": "Are all courses taught in English?", "a": "Yes. English is the primary instruction language." },
-  { "q": "What if my English is not strong enough?", "a": "SGU offers an English Preparatory Program (EPP) and ongoing support." },
-  { "q": "Are there preparatory English courses before classes?", "a": "Yes. The English Preparatory Program supports incoming students prior to/at the start of study." },
-  { "q": "What teaching methods are applied?", "a": "Lectures, laboratory work, projects, and industry-based learning." },
-  { "q": "Are there soft-skill classes (public speaking, teamwork)?", "a": "Yes. Various courses and activities develop communication, collaboration, and leadership." },
-  { "q": "How does the double-degree system work?", "a": "Students study three years in Indonesia and complete the final year at a European partner university." },
-  { "q": "Which countries are the double-degree partners?", "a": "Mainly Germany, Switzerland, and Austria." },
-  { "q": "Can all students join the double degree? Is there selection?", "a": "Most programs target double degree participation; eligibility and selection criteria may apply." },
-  { "q": "How long do students study abroad?", "a": "Typically the final year is spent at a partner university abroad." },
-  { "q": "What are additional costs for the double degree?", "a": "Beyond tuition, students should plan for travel, visa, insurance, and living costs during the year abroad." },
-  { "q": "How much is tuition per semester?", "a": "Indicative range: IDR 25–35 million per semester, depending on the program (subject to change)." },
-  { "q": "Are there additional fees (admission/registration)?", "a": "Yes. Admission and registration fees apply. Separate living costs for the year abroad." },
-  { "q": "Does SGU provide scholarships for new students?", "a": "Yes. Merit-based, academic achievement, talent, and other scholarships may be available." },
-  { "q": "How do I apply for a scholarship?", "a": "Submit academic transcripts, achievement records, and any required interview/essay per scholarship guidelines." },
-  { "q": "What laboratory facilities are available?", "a": "Advanced labs in engineering, IT, life sciences, and business, designed to international standards." },
-  { "q": "Does SGU have a library with access to e-journals?", "a": "Yes. Students have access to international e-journals and research platforms." },
-  { "q": "What sports and student activity facilities are provided?", "a": "Clubs, organizations, and sports/creative activities are available; offerings vary by semester." },
-  { "q": "Does SGU provide student dormitories?", "a": "On-campus dorm information varies; contact student services for current availability and recommendations." },
-  { "q": "What is the student orientation program like?", "a": "Orientation introduces academic policies, campus life, and community engagement activities." },
-  { "q": "Are there student organizations and clubs?", "a": "Yes. Student councils, clubs, and associations operate across academic and interest areas." },
-  { "q": "How does SGU support non-academic activities?", "a": "Through student affairs, clubs, events, competitions, and workshops." },
-  { "q": "Is there an international student community?", "a": "Yes. The campus community includes international exposure and multicultural activities." },
-  { "q": "What is the day-to-day campus learning atmosphere?", "a": "International, project- and lab-oriented, with English as the medium of instruction." },
-  { "q": "Are internships provided for all students?", "a": "Yes. Internships are mandatory: one domestic (around semester 6) and one during the double-degree year abroad." },
-  { "q": "Which companies are internship partners?", "a": "Examples include Siemens, BMW, Bosch, Unilever, and many other local/international companies (varies over time)." },
-  { "q": "Are there internship opportunities abroad?", "a": "Yes, through partner universities/companies aligned with the double-degree program." },
-  { "q": "How does the Career Center support job search?", "a": "Career counseling, job fairs, industry networking, and internship-to-placement pathways." },
-  { "q": "What are requirements to apply for an undergraduate program?", "a": "High school diploma (SMA/SMK/IB/A-level), English proficiency (TOEFL/IELTS or SGU test), and required documents." },
-  { "q": "Is there an entrance exam?", "a": "Selection processes may include tests/interviews; check the latest admissions guide per intake." },
-  { "q": "What documents are needed?", "a": "Transcripts, ID, English proficiency proof or test, and program-specific requirements." },
-  { "q": "Is there a special pathway for international students?", "a": "Yes. International applicants have a dedicated process; contact admissions for details." },
-  { "q": "What is the application deadline each year?", "a": "Deadlines vary by intake; see the current admissions calendar." },
-  { "q": "How long to complete a degree?", "a": "Typically four years including the year abroad (program-dependent)." },
-  { "q": "Do most graduates find jobs quickly?", "a": "Outcomes are strong due to internships and international exposure; individual timing varies." },
-  { "q": "Which career fields do graduates enter?", "a": "Engineering/IT, business & management, life sciences, hospitality, communications, and entrepreneurship." },
-  { "q": "Does SGU help students build industry networks?", "a": "Yes. Through partnerships, internships, guest lectures, and career services." },
-  { "q": "What makes SGU graduates stand out?", "a": "Two degrees, strong English skills, international year, and real industry experience." }
+  {
+    "q": "Is Swiss German University accredited by BAN-PT?",
+    "a": "Yes, SGU is fully accredited by BAN-PT, with several programs holding 'A' and 'B' accreditation."
+  },
+  {
+    "q": "Is SGU’s degree recognized internationally?",
+    "a": "Yes. Through the double degree program, graduates receive one degree from SGU and one from a European partner university."
+  },
+  {
+    "q": "How is SGU’s reputation compared to other private universities in Indonesia?",
+    "a": "SGU is known for its international curriculum, English-taught programs, and strong partnerships with European universities and industries."
+  },
+  {
+    "q": "Which partner universities abroad are available for the double degree program?",
+    "a": "SGU partners with universities in Germany, Switzerland, and Austria, depending on the study program."
+  },
+  {
+    "q": "Are there any SGU alumni who have succeeded internationally?",
+    "a": "Yes, many SGU alumni work in global companies or pursue postgraduate studies abroad."
+  },
+  {
+    "q": "What study programs are offered at SGU?",
+    "a": "Undergraduate programs include Engineering, Information Technology, Business & Management, Life Sciences, and Social Sciences."
+  },
+  {
+    "q": "Can students change majors after the first semester?",
+    "a": "Yes, with academic approval and availability in the desired program."
+  },
+  {
+    "q": "What makes SGU’s learning system different from other universities?",
+    "a": "SGU emphasizes practical learning, bilingual education, and international exposure through its double degree and internship programs."
+  },
+  {
+    "q": "Are all courses taught in English?",
+    "a": "Yes, all courses are delivered in English by both local and international lecturers."
+  },
+  {
+    "q": "What if my English proficiency is not strong enough?",
+    "a": "SGU provides an English Preparatory Program (EPP) to help students improve their language skills before starting regular classes."
+  },
+  {
+    "q": "What teaching methods are applied at SGU?",
+    "a": "A mix of lectures, lab work, projects, presentations, and case studies is used to enhance learning outcomes."
+  },
+  {
+    "q": "Are there programs to develop soft skills like leadership and teamwork?",
+    "a": "Yes, SGU integrates soft skill training into the curriculum and extracurricular activities."
+  },
+  {
+    "q": "How does the double degree system work at SGU?",
+    "a": "Students spend three years studying in Indonesia and one year at a European partner university."
+  },
+  {
+    "q": "Are all students eligible for the double degree program?",
+    "a": "Yes, all SGU students are required to complete the double degree as part of the curriculum."
+  },
+  {
+    "q": "How much is the tuition fee per semester at SGU?",
+    "a": "Tuition ranges from IDR 25–35 million per semester, depending on the program."
+  },
+  {
+    "q": "Does SGU offer scholarships for new students?",
+    "a": "Yes, SGU offers scholarships based on academic merit, achievements, and talents."
+  },
+  {
+    "q": "What laboratory and library facilities are available?",
+    "a": "SGU has modern labs for each major and provides access to international e-journals through its digital library."
+  },
+  {
+    "q": "Does SGU provide internship opportunities for students?",
+    "a": "Yes, internships are mandatory—one in Indonesia and one abroad during the double degree program."
+  },
+  {
+    "q": "Which companies are SGU’s industry partners?",
+    "a": "Partners include Siemens, BMW, Bosch, Unilever, and many other international and local companies."
+  },
+  {
+    "q": "What is student life like at SGU?",
+    "a": "Students can join various clubs, student organizations, and sports teams, fostering a vibrant campus community."
+  },
+  {
+    "q": "Does SGU have dormitory or housing facilities?",
+    "a": "SGU assists students in finding nearby accommodation and provides dormitory recommendations."
+  },
+  {
+    "q": "How does SGU support students’ career preparation?",
+    "a": "The Career Center helps students with job placements, internships, and networking opportunities with industry partners."
+  },
+  {
+    "q": "What are the admission requirements for undergraduate programs?",
+    "a": "Applicants need a high school diploma, English proficiency proof (TOEFL/IELTS or SGU test), and supporting documents."
+  },
+  {
+    "q": "Is there an entrance exam or interview for admission?",
+    "a": "Yes, SGU conducts entrance assessments to evaluate applicants’ academic and language readiness."
+  },
+  {
+    "q": "What makes SGU graduates stand out from others?",
+    "a": "SGU graduates are bilingual, internationally exposed, and experienced through two internships, making them highly competitive in the global market."
+  }
 ]

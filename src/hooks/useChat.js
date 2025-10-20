@@ -1,7 +1,7 @@
-// src/hooks/useChat.js - Chat with KB retrieval (no SGU keyword gating)
+// src/hooks/useChat.js - Chat with KB retrieval and relatedness feedback
 import React from 'react';
-import { chatStream } from '../services/api';
 import kb from '../knowledge/knowledgeBase';
+import { chatStream } from '../services/api';
 
 // Allowed domains for external links (SGU official only)
 const ALLOWED_DOMAINS = ['sgu.ac.id', 'my.sgu.ac.id'];
@@ -101,7 +101,7 @@ export default function useChat() {
   const sendMessage = async (userText) => {
     setError('');
 
-    // VALIDATION: Check for disallowed external links (keep; remove if you don't want this)
+    // VALIDATION: Check for disallowed external links
     if (containsDisallowedLink(userText)) {
       const refusalMsg = "I can only accept information from official SGU sources (sgu.ac.id). Please provide SGU official links or ask your question without external URLs.";
 
@@ -126,6 +126,78 @@ export default function useChat() {
       return;
     }
 
+    const text = norm(userText);
+
+    // Knowledge retrieval step
+    const retrieval = await retrieveFallback(text);
+
+    // Check if we have any hits
+    const hasAnyHit =
+      (retrieval?.type === 'direct') ||
+      (retrieval?.type === 'faq-hints' && retrieval.hints?.length) ||
+      (retrieval?.type === 'topic-hints' && retrieval.hints?.length);
+
+    // Check if question is SGU-related using KB
+    const kbThinksRelated = kb.isLikelySGURelatedKB ? kb.isLikelySGURelatedKB(text) : true;
+
+    // Case: Unrelated to SGU and no hits
+    if (!hasAnyHit && !kbThinksRelated) {
+      let sessionId = activeSessionId;
+      if (!sessionId) {
+        sessionId = Math.random().toString(36).slice(2);
+        setActiveSessionId(sessionId);
+        setHistory(prev => [{ id: sessionId, title: 'New chat', messages: [] }, ...prev]);
+      }
+
+      const userMsg = { role: 'user', content: text, ts: Date.now() };
+      const feedback = {
+        role: 'assistant',
+        content:
+          "I'm here to help with Swiss German University (SGU) topics. Your question doesn't appear related to SGU, and I couldn't find anything relevant in the SGU knowledge base.\n\nYou can ask about:\n• Admissions, tuition, and scholarships\n• Programs & faculties (Mechatronics, IT, Business, Life Sciences, etc.)\n• Double degree and internships\n• Campus facilities, library, student affairs\n\nPlease rephrase your question to focus on SGU, and I'll be glad to help.",
+        ts: Date.now(),
+        streaming: false
+      };
+
+      setMessages(prev => {
+        const next = [...prev, userMsg, feedback];
+        updateSession(sessionId, s => ({ ...s, messages: next }));
+        if (next.filter(m => m.role === 'user').length === 1) {
+          updateTitleFromFirstUserMessage(sessionId, text);
+        }
+        return next;
+      });
+      return;
+    }
+
+    // Case: Related to SGU but no hits found
+    if (!hasAnyHit && kbThinksRelated) {
+      let sessionId = activeSessionId;
+      if (!sessionId) {
+        sessionId = Math.random().toString(36).slice(2);
+        setActiveSessionId(sessionId);
+        setHistory(prev => [{ id: sessionId, title: 'New chat', messages: [] }, ...prev]);
+      }
+
+      const userMsg = { role: 'user', content: text, ts: Date.now() };
+      const feedback = {
+        role: 'assistant',
+        content:
+          "I couldn't find an exact answer in the SGU knowledge base. Could you clarify or provide more details?\n\nFor example:\n• Which program/faculty is this about?\n• Are you asking about admissions, fees, curriculum, or internships?\n\nI can then look again or provide more precise information.",
+        ts: Date.now(),
+        streaming: false
+      };
+
+      setMessages(prev => {
+        const next = [...prev, userMsg, feedback];
+        updateSession(sessionId, s => ({ ...s, messages: next }));
+        if (next.filter(m => m.role === 'user').length === 1) {
+          updateTitleFromFirstUserMessage(sessionId, text);
+        }
+        return next;
+      });
+      return;
+    }
+
     // Proceed with normal chat flow
     let sessionId = activeSessionId;
     if (!sessionId) {
@@ -134,7 +206,6 @@ export default function useChat() {
       setHistory(prev => [{ id: sessionId, title: 'New chat', messages: [] }, ...prev]);
     }
 
-    const text = norm(userText);
     const userMsg = { role: 'user', content: text, ts: Date.now() };
     const draftAssistant = { role: 'assistant', content: '', ts: Date.now(), streaming: true };
 
@@ -146,9 +217,6 @@ export default function useChat() {
       }
       return next;
     });
-
-    // Knowledge retrieval step
-    const retrieval = await retrieveFallback(text);
 
     // Case 1: Strong direct FAQ match – answer locally without calling the model
     if (retrieval?.type === 'direct' && retrieval.score >= RETRIEVAL.immediateAnswerMinScore) {

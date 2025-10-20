@@ -132,5 +132,38 @@ export function search(term) {
   return { faqHits, topicHits };
 }
 
+export function isLikelySGURelatedKB(query) {
+  const q = norm(query);
+  if (!q) return false;
+
+  // Quick substring cues that are very common
+  const quickCues = ['sgu', 'swiss german', 'swiss-german', 'double degree', 'campus', 'faculty', 'program'];
+  for (const c of quickCues) {
+    if (q.includes(c)) return true;
+  }
+
+  // Soft similarity vs. all FAQ titles
+  let maxFaq = 0;
+  for (const item of faqs) {
+    const score = jaccard(expandTokens(tokenize(q)), expandTokens(tokenize(item.q)));
+    if (score > maxFaq) maxFaq = score;
+    if (maxFaq >= 0.35) break; // early exit
+  }
+
+  // Soft similarity vs. topic names
+  let maxTopic = 0;
+  for (const fac of topics?.faculties || []) {
+    maxTopic = Math.max(maxTopic, jaccard(expandTokens(tokenize(q)), expandTokens(tokenize(fac.name))));
+    for (const p of fac.programs || []) {
+      const joined = [p.name, ...(p.concentrations || [])].join(' ');
+      maxTopic = Math.max(maxTopic, jaccard(expandTokens(tokenize(q)), expandTokens(tokenize(joined))));
+      if (maxFaq >= 0.35 || maxTopic >= 0.35) break;
+    }
+    if (maxFaq >= 0.35 || maxTopic >= 0.35) break;
+  }
+
+  return maxFaq >= 0.35 || maxTopic >= 0.35;
+}
+
 export { faqs, topics };
-export default { faqs, topics, getAnswer, search };
+export default { faqs, topics, getAnswer, search, isLikelySGURelatedKB };

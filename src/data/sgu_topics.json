@@ -1,122 +1,571 @@
 {
-  "about": {
-    "summary": "Swiss German University (SGU) was established in 2000 with Indonesian–German–Swiss–Austrian collaboration. It pioneers international curricula in Indonesia with English-medium instruction and double-degree paths with European partners.",
-    "highlights": [
-      "International double degree (Indonesia + Europe)",
-      "17 Bachelor’s and 6 Master’s programs",
-      "Small classes and industry-aligned learning",
-      "Mandatory internships (domestic and abroad)"
+  "About SGU": {
+    "description": "Swiss German University (SGU) was established in 2000 as a joint effort between Indonesia, Germany, Switzerland, and Austria. SGU is the pioneer in offering international curricula in Indonesia. Qualified students can graduate with a Double Degree from Indonesia and Germany, which SGU provides in cooperation with partner universities.",
+    "vision": "To be a globally recognized university with integrity, superior learning culture, diversity, and high social responsibility, which inspires character transformation and develops young leaders who are responsible and fully equipped to face life’s challenges.",
+    "mission": [
+      "Placing discipline and integrity as core values in every activity to develop character transformation of the civitas academica.",
+      "Organizing an internationally oriented education with a high-quality learning culture that focuses on professionalism, innovation, and excellence.",
+      "Carrying out globally recognized research emphasizing the advancement of science and its application.",
+      "Carrying out community service and playing an active role in society as a form of social care and dedication to Indonesia."
     ],
-    "vision": "To be a globally recognized university with integrity, superior learning culture, diversity, and high social responsibility.",
-    "values": ["Resilient", "Adaptive", "Proactive", "Integrity", "Discipline", "Social Care"]
+    "values": [
+      "Resilient",
+      "Adaptive",
+      "Proactive",
+      "Integrity",
+      "Discipline",
+      "Social Care"
+    ]
   },
-  "faculties": [
-    {
-      "name": "Engineering and Information Technology",
-      "programs": [
-        {
-          "name": "Mechatronics Engineering",
-          "notes": [
-            "Integrated mechanical/electrical/computing; Siemens Certification Program partner",
-            "Fast-track with University of Missouri Kansas City (UMKC)"
-          ],
-          "careers": ["Automation engineer", "IoT/embedded systems", "Smart manufacturing"]
-        },
-        {
-          "name": "Hybrid Electric Vehicles",
-          "notes": ["Prepares for EV systems, energy management, and automotive software"],
-          "careers": ["Engineer", "Researcher", "Software developer", "Energy systems"]
-        },
-        {
-          "name": "IT: Cyber Security",
-          "notes": ["Ethical hacking, malware analysis, cyber threat intelligence"],
-          "careers": ["Cybersecurity analyst", "Penetration tester", "Security engineer"]
-        },
-        {
-          "name": "IT: AI & Data Science",
-          "notes": ["NLP, computer vision, ML engineering; UMKC fast-track"],
-          "careers": ["Data scientist", "ML engineer", "AI researcher"]
-        },
-        {
-          "name": "IT: Technopreneurship",
-          "notes": ["Startup-building, big data, modern web/mobile stacks"],
-          "careers": ["Founder", "Full-stack developer", "Product/tech lead"]
-        },
-        {
-          "name": "Industrial Engineering: Smart Industry",
-          "notes": ["AI/data analytics for optimization; Industry 4.0 and circular economy"],
-          "careers": ["Digital transformation lead", "Data-driven operations", "Quality/consulting"]
-        },
-        {
-          "name": "Industrial Engineering: Eco Industry",
-          "notes": ["Sustainability, green manufacturing, reverse logistics"],
-          "careers": ["Sustainability engineer", "Waste management", "Green consulting"]
-        }
-      ]
-    },
-    {
-      "name": "Business and Communication",
-      "programs": [
-        {
-          "name": "Business and Management",
-          "concentrations": ["Digital Marketing", "Finance & Business Analytics", "Innovative Entrepreneurship"],
-          "careers": ["Brand/PR manager", "Export/Import manager", "Finance manager", "Entrepreneur"]
-        },
-        {
-          "name": "Business Accounting",
-          "notes": ["Internships in KAP/non-KAP; SAP/audit tooling exposure"],
-          "careers": ["Auditor", "Tax specialist", "Financial analyst", "Controller"]
-        },
-        {
-          "name": "Digital Communication & Media Arts (2+2 with MCU Taipei)",
-          "careers": ["Digital marketing manager", "Content strategist", "Media producer", "PR specialist"]
-        },
-        {
-          "name": "Digital Communication & Media",
-          "notes": ["AI in communication, social media marketing, multimedia production"],
-          "careers": ["Social media manager", "UX writer", "Performance marketing specialist"]
-        },
-        {
-          "name": "Global Strategic Communication",
-          "notes": ["International exposure; PR and digital journalism certifications"],
-          "careers": ["Communications specialist", "Journalist", "PR consultant"]
-        },
-        {
-          "name": "Hotel and Tourism Management",
-          "notes": ["Double degree with IMI Switzerland; internships abroad"],
-          "careers": ["Hotel operations", "Events/marketing", "Hospitality management"]
-        },
-        {
-          "name": "International Culinary Business",
-          "notes": ["Double degree with IMI; entrepreneurship focus"],
-          "careers": ["Chef/owner", "Culinary consultant", "Food stylist"]
-        }
-      ]
-    },
-    {
-      "name": "Life Sciences and Technology",
-      "programs": [
-        {
-          "name": "Pharmaceutical Engineering",
-          "notes": ["Chemical engineering focus for pharma design/operations"],
-          "careers": ["Process engineer", "Pharma manufacturing", "Consultant/researcher"]
-        },
-        {
-          "name": "Food Technology",
-          "notes": ["End-to-end food processing, safety, packaging, and product development"],
-          "careers": ["Food product developer", "Quality assurance", "Ingredient industry"]
-        },
-        {
-          "name": "Medical Biotechnology",
-          "notes": ["Genomics, bioinformatics, biomedical data science; double degree with Aalen University (DE)"],
-          "careers": ["Biopharma R&D", "Clinical diagnostics", "Bioinformatics"]
-        },
-        {
-          "name": "Sustainable Energy and Environment",
-          "notes": ["Renewables, conservation, water/environmental engineering"],
-          "careers": ["Renewable energy engineer", "Process/environmental engineer", "Consultant"]
-        }
-      ]
-    }
-  ]
+  "Mechatronics Engineering": {
+    "faculty": "Engineering and Information Technology",
+    "description": "Mechatronics refers to an integrated approach to the multi-disciplinary field involving mechanical engineering, electronics, and computer sciences. The applications of this field are numerous, ranging from manufacturing automation to smart product designs. Our graduates are able to modernize older technological capabilities to take products and manufacturing to the next level.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dr. Yunita Umniyati, S.Si., M.Sc — Head",
+      "Hartono, S.T., M.T. — Deputy Head",
+      "Leonard Rusli, Ph.D — Lecturer (Vice Rector)",
+      "Edward Boris P. Manurung, M.Eng — Lecturer",
+      "Dr. Rusman Rusyadi — Lecturer",
+      "Dena Hendriana, B.Sc., S.M., Sc.D. — Lecturer",
+      "Erikson F. Sinaga, S.T., M.Kom. — Deputy Head"
+    ],
+    "career_prospects": [
+      "Automation Engineer",
+      "IoT Developer",
+      "System Engineer"
+    ],
+    "keywords": [
+      "mechatronics",
+      "robotics",
+      "engineering",
+      "mechanical",
+      "electronics",
+      "computer"
+    ]
+  },
+  "Hybrid Electric Vehicles": {
+    "faculty": "Engineering and Information Technology",
+    "description": "Studying Hybrid Electric Vehicles is not just about following technological trends; it also provides the ability to adapt to industrial changes and make a positive contribution to global challenges related to transportation and the environment. The Hybrid Electric Vehicles program prepares students to become professionals who can contribute to the development and implementation of sustainable and environmentally friendly transportation solutions. Additionally, the program often includes practical projects and collaborations with the automotive industry to provide students with hands-on experience.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dr. Yunita Umniyati, S.Si., M.Sc — Head",
+      "Erikson F. Sinaga, S.T., M.Kom. — Deputy Head",
+      "Leonard Rusli, Ph.D — Lecturer (Vice Rector)",
+      "Edward Boris P. Manurung, M.Eng — Lecturer",
+      "Dr. Rusman Rusyadi — Lecturer",
+      "Dena Hendriana, B.Sc., S.M., Sc.D. — Lecturer",
+      "Dr. Ir. Henry Nasution, M.T, IPP — Lecturer"
+    ],
+    "career_prospects": [
+      "Engineer",
+      "Researcher",
+      "Vehicle Software Developer",
+      "Energy Management and Charging",
+      "Technopreneur",
+      "Supply Chain Manager"
+    ],
+    "keywords": [
+      "hybrid",
+      "electric",
+      "vehicles",
+      "automotive",
+      "sustainability",
+      "energy",
+      "engineering"
+    ]
+  },
+  "IT: Cyber Security": {
+    "faculty": "Engineering and Information Technology",
+    "description": "A cybersecurity major immerses students in cutting-edge digital defense, integrating emerging technologies like AI and blockchain to counter evolving threats. Emphasizing ethical hacking, students learn to identify vulnerabilities, navigating legal frameworks in simulated cyber-attacks. In-depth malware analysis equips them to dissect and counter malicious code, while cyber threat intelligence training enables proactive strategies against potential threats. This comprehensive skill set prepares graduates to safeguard digital infrastructure effectively. Armed with expertise in emerging technologies, ethical hacking, malware analysis, and cyber threat intelligence, they navigate the dynamic cybersecurity landscape adeptly, making them valuable assets in defending against diverse cyber threats.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dipl.-Inf I Eng Kho — Head",
+      "Associate Professor James Purnama, S.Kom, M.Kom, M.Sc — Lecturer (Vice Rector)",
+      "Kalpin Erlangga Silaen, S.Si., M.Kom., CISSP, CEH, ECIH, ECSA, CHFI — Lecturer",
+      "Randy Anthony — Lecturer",
+      "Dr. Eka Budiarto, S.T., M.Sc — Lecturer",
+      "Dr. Ir. Mohammad A Soetomo, DSc — Lecturer",
+      "Dr. Ir. Charles Lim, Msc., Bsc., CSAP, Security+, CySA+, CND, CCSE, CTIA, CHFI, EDRP, ECSA, ECSP, ECIH, CEH, CEI — Lecturer",
+      "Dr. Ir. Heru Purnomo Ipung, M.Eng — Lecturer"
+    ],
+    "career_prospects": [
+      "Cybersecurity Analyst",
+      "Ethical Hacker/Penetration Tester",
+      "Security Consultant",
+      "Incident Responder",
+      "Security Architect",
+      "Security Engineer",
+      "Threat Intelligence Analyst"
+    ],
+    "keywords": [
+      "cybersecurity",
+      "information security",
+      "ethical hacking",
+      "malware",
+      "AI",
+      "blockchain",
+      "threat intelligence",
+      "network security"
+    ]
+  },
+  "IT: Artificial Intelligence & Data Science": {
+    "faculty": "Engineering and Information Technology",
+    "description": "Artificial intelligence has actually become something that we usually encounter through today’s technological sophistication, for example, the computer vision application on the Electronic Traffic Law Enforcement (e-tilang) system in Jakarta that uses smart cameras. In addition there are many other things such as Natural Language Processing, Image Processing, Pattern Recognition, and many more. In today’s world, data science also has a big role to predict information and generate useful insights for various fields, such as decision making in business, politics, health, etc. Committed as a university that always aligns with industry demands, Swiss German University is ready to facilitate these needs through the Information Technology – Artificial Intelligence & Data Science study program. The latest added value is SGU’s collaboration with the University of Missouri Kansas City (UMKC) to provide a fast-track program.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dipl.-Inf I Eng Kho — Head",
+      "Associate Professor James Purnama, S.Kom, M.Kom, M.Sc — Lecturer (Vice Rector)",
+      "Kalpin Erlangga Silaen, S.Si., M.Kom., CISSP, CEH, ECIH, ECSA, CHFI — Lecturer",
+      "Randy Anthony — Lecturer",
+      "Dr. Eka Budiarto, S.T., M.Sc — Lecturer",
+      "Dr. Ir. Mohammad A Soetomo, DSc — Lecturer",
+      "Dr. Ir. Charles Lim, Msc., Bsc., CSAP, Security+, CySA+, CND, CCSE, CTIA, CHFI, EDRP, ECSA, ECSP, ECIH, CEH, CEI — Lecturer",
+      "Dr. Ir. Heru Purnomo Ipung, M.Eng — Lecturer"
+    ],
+    "career_prospects": [
+      "Data Scientist",
+      "AI Scientist",
+      "Machine Learning Engineer"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "data science",
+      "machine learning",
+      "deep learning",
+      "NLP",
+      "computer vision",
+      "big data",
+      "analytics"
+    ]
+  },
+  "IT: Technopreneurship": {
+    "faculty": "Engineering and Information Technology",
+    "description": "Many applications today have been extensively equipped with Artificial Intelligence (AI) capability, which makes them more interesting and useful. Besides, the amount of data that is generated online everyday is enormous. This huge amount of data, termed with Big Data, is of little use unless it is processed to produce useful insights for business, government, education, society, and research. Moreover, IT and the Internet have opened big opportunities for many to become IT Entrepreneurs. Many millennial and Z generation students have been attracted to entrepreneurship. Entrepreneurship and Startup have become a jargon in almost all educational institutions. SGU Bachelor IT has been in the forefront in providing IT skills since the beginning. We constantly adapt our teaching to align with the demand of industry. As we have highlighted above, the need for AI and Data Scientists as well as IT Entrepreneurs is increasing, which is why our new curriculum offered in 2020 includes these two concentrations: AI and Data Science, and IT Technopreneurship. The latest added value is SGU’s collaboration with the University of Missouri Kansas City (UMKC) to provide a fast-track program.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dipl.-Inf I Eng Kho — Head",
+      "Associate Professor James Purnama, S.Kom, M.Kom, M.Sc — Lecturer (Vice Rector)",
+      "Kalpin Erlangga Silaen, S.Si., M.Kom., CISSP, CEH, ECIH, ECSA, CHFI — Lecturer",
+      "Randy Anthony — Lecturer",
+      "Dr. Eka Budiarto, S.T., M.Sc — Lecturer",
+      "Dr. Ir. Mohammad A Soetomo, DSc — Lecturer",
+      "Dr. Ir. Charles Lim, Msc., Bsc., CSAP, Security+, CySA+, CND, CCSE, CTIA, CHFI, EDRP, ECSA, ECSP, ECIH, CEH, CEI — Lecturer",
+      "Dr. Ir. Heru Purnomo Ipung, M.Eng — Lecturer"
+    ],
+    "career_prospects": [
+      "Enterprise Web/Mobile Application Developer",
+      "Network Administrator and Security Specialist",
+      "System Analyst",
+      "Big Data Analyst",
+      "Technopreneur",
+      "IT Consultant"
+    ],
+    "keywords": [
+      "technopreneurship",
+      "entrepreneurship",
+      "IT business",
+      "startups",
+      "AI",
+      "data science",
+      "innovation",
+      "technology management"
+    ]
+  },
+  "IE: Smart Industry": {
+    "faculty": "Engineering and Information Technology",
+    "description": "Artificial intelligence (AI) and data analytics have become new alternative methods that are frequently used for systems optimization in the era of Industry 4.0, for example in process automation, e-commerce, business intelligence and analytics, and predictive maintenance. Utilizing AI and data analytics for improving engineering and business systems requires good understanding and competences in operations management, logistics and supply chain, human factors, economy, and optimization methods. These competences assure that the investment on new sophisticated technology implementation could lead the organization to higher performance and efficiency, along with better sustainability. In order to support the Indonesian government’s initiatives in Industry 4.0 and circular economy, along with the needs of digital talents that are rising in the future of work, Industrial Engineering: Smart Industry of Swiss German University provides a curriculum and conducts collaborative programs with industry and partner universities aligned with the needs of human capital that have competences to optimize the performance of engineering and business systems using artificial intelligence and data analytics. The latest added value is SGU’s collaboration with the University of Missouri Kansas City (UMKC) to provide a fast-track program.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dr. Eng. Aditya T. Pratama, S.Si., M.T — Head",
+      "Ir. Triarti Saraswati, M.Eng — Deputy Head",
+      "Win Sukardi — Lecturer",
+      "Assoc. Prof. Dr. Tanika D. Sofianti, S.T., M.T — Lecturer",
+      "Gunawan Zuardi, M.T, M.Sc — Lecturer",
+      "Ivan Kurniawan, S.T., B.Eng., M.T., M.B.A — Lecturer",
+      "Dr. Yunita Umniyati, S.Si., M.Sc — Lecturer",
+      "Dr. Eka Budiarto, S.T., M.Sc — Lecturer",
+      "Leonard Rusli, Ph.D — Lecturer",
+      "Dena Hendriana, B.Sc., S.M., Sc.D — Lecturer",
+      "Dr. Ir. Henry Nasution, M.T, IPP — Lecturer",
+      "Eduardo Wangsa Saputra, S.T., B.Eng., M.T — Lecturer",
+      "Dr. Hery Sutanto, S.Si., M.Si — Lecturer",
+      "Dr. Nurdayadi, MSc — Lecturer"
+    ],
+    "career_prospects": [
+      "Digital Transformation Team Leader",
+      "AI and Data Analytics Specialist for Business and Industry",
+      "Predictive Maintenance Engineer",
+      "Smart System Designer for Manufacturing, Logistics, and Supply Chain",
+      "Additive Manufacturing Engineer",
+      "Occupational Health and Safety Manager (Smart Technologies)",
+      "Quality Engineer / Quality Assurance Inspector",
+      "Automation and Consulting Engineer"
+    ],
+    "keywords": [
+      "industrial engineering",
+      "smart industry",
+      "AI",
+      "data analytics",
+      "industry 4.0",
+      "automation",
+      "optimization",
+      "digital transformation"
+    ]
+  },
+  "IE: Eco Industry": {
+    "faculty": "Engineering and Information Technology",
+    "description": "The emerging world issues related to sustainability drive industries to achieve cleaner production. With the use of modern tools, concepts, methods, and technologies, green engineering and technology help build sustainable and eco-friendly designs and innovations. The concept aligns with the United Nations 2030 agenda for sustainable development goals. In accordance with this issue, Industrial Engineering: Eco Industry of Swiss German University directs students to have a sustainable mindset based on economic, environmental, and social perspectives. The field of study includes green economy, circular economy, supply chain management, lean operations, and maintenance management, and is equipped with knowledge from digital and technological aspects such as artificial intelligence (AI) and data analytics. This set of competences ensures that graduates are well-prepared for the competitive industrial market, especially in the face of the Industry 4.0 era. The latest added value is SGU’s collaboration with the University of Missouri Kansas City (UMKC) to provide a fast-track program.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dr. Eng. Aditya T. Pratama, S.Si., M.T — Head",
+      "Ir. Triarti Saraswati, M.Eng — Deputy Head",
+      "Win Sukardi — Lecturer",
+      "Assoc. Prof. Dr. Tanika D. Sofianti, S.T., M.T — Lecturer",
+      "Gunawan Zuardi, M.T, M.Sc — Lecturer",
+      "Ivan Kurniawan, S.T., B.Eng., M.T., M.B.A — Lecturer",
+      "Dr. Yunita Umniyati, S.Si., M.Sc — Lecturer",
+      "Dr. Eka Budiarto, S.T., M.Sc — Lecturer",
+      "Leonard Rusli, Ph.D — Lecturer",
+      "Dena Hendriana, B.Sc., S.M., Sc.D — Lecturer",
+      "Dr. Ir. Henry Nasution, M.T, IPP — Lecturer",
+      "Eduardo Wangsa Saputra, S.T., B.Eng., M.T — Lecturer",
+      "Dr. Hery Sutanto, S.Si., M.Si — Lecturer",
+      "Dr. Nurdayadi, MSc — Lecturer"
+    ],
+    "career_prospects": [
+      "Sustainability and Circular Economy Project Leader",
+      "AI and Data Analytics Specialist for Sustainable Systems",
+      "Predictive Maintenance Engineer for Sustainability",
+      "Green Manufacturing Engineer",
+      "Reverse Logistics and Supply Chain Designer",
+      "Energy Efficiency Engineer",
+      "Waste Management Engineer",
+      "Environmental and Safety Manager"
+    ],
+    "keywords": [
+      "industrial engineering",
+      "eco industry",
+      "sustainability",
+      "circular economy",
+      "green engineering",
+      "AI",
+      "data analytics",
+      "environmental management"
+    ]
+  },
+  "Business and Management": {
+    "faculty": "Business and Communication",
+    "description": "The Business Management Study Program offers three concentrations: Digital Marketing, Finance and Business Analytic, and Innovative Entrepreneurship. Each of these concentrations provides the necessary knowledge, skills, and confidence to succeed in management roles. Students are also enriched with International Certification, Entrepreneurship Development Program, and International Computer-Based training to thrive in a constantly changing and competitive global business environment.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM.",
+      "Dr. Munawaroh Zainal, S.E., M.M.",
+      "Mochammad Riyadh Rizky Adam, S.T., M.S.M.",
+      "Dr. Anthon Stevanus Tondo, S.E., M.B.A.",
+      "Margaretha T.P. Lingga, MM.",
+      "Dipl-Ing Panji Mukadis, S.Kom., MM",
+      "Yudhistira Pratama"
+    ],
+    "career_prospects": [
+      "Entrepreneur",
+      "Brand Manager",
+      "Customer Relationship Manager",
+      "Public Relations Manager",
+      "Export/Import Manager",
+      "Finance Manager",
+      "Managerial positions in multinational companies (BMW, Siemens, DBS, Ernst & Young, Coca-Cola)"
+    ],
+    "keywords": [
+      "business",
+      "management",
+      "marketing",
+      "entrepreneurship",
+      "finance",
+      "analytics"
+    ]
+  },
+  "Business Accounting": {
+    "faculty": "Business and Communication",
+    "description": "The Business Accounting program at Swiss German University is designed to prepare students with practical and industry-relevant accounting skills. The curriculum aligns with professional standards and emphasizes hands-on experience through internships in both public accounting firms (KAP) and non-KAP companies. Students gain exposure to modern accounting tools such as SAP, audit applications, and Accurate, ensuring readiness for real-world challenges and opportunities for international certification.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM.",
+      "Agung Joni Saputra, S.E., M.Akt., Cert DA.",
+      "Dr. Nurdayadi, MSc.",
+      "Alfiandri, MAcc. CA",
+      "Neneng Djuaeriah",
+      "Indra Pratama",
+      "Sumini Salem"
+    ],
+    "career_prospects": [
+      "Auditor",
+      "Tax Specialist",
+      "Corporate Accountant",
+      "Controller",
+      "Financial Analyst",
+      "Financial Consultant"
+    ],
+    "keywords": [
+      "accounting",
+      "finance",
+      "auditing",
+      "consulting",
+      "taxation",
+      "business"
+    ]
+  },
+  "Digital Communication & Media Arts": {
+    "faculty": "Business and Communication",
+    "description": "The Digital Communication & Media Arts (DCMA) program at Swiss German University combines creativity, digital media, arts, technology, and strategic communication. Offered under a 2+2 Double Degree scheme with Ming Chuan University in Taipei, students spend two years at SGU and two years at MCU. The curriculum emphasizes digital content creation, multimedia production, digital marketing, visual communication, and media strategy through hands-on projects, internships, and international exposure to prepare graduates for a dynamic, tech-driven communications industry.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM.",
+      "Loina Lalolo Krina Perangin-angin, M.Si.",
+      "Deborah Nauli S., Ph.D."
+    ],
+    "career_prospects": [
+      "Digital Marketing Manager",
+      "Media Director",
+      "Creative Director",
+      "Strategic Communication Consultant",
+      "Digital Transformation Specialist",
+      "Film and Media Producer",
+      "Content Creator"
+    ],
+    "keywords": [
+      "digital communication",
+      "media arts",
+      "creative",
+      "marketing",
+      "visual communication",
+      "strategy"
+    ]
+  },
+  "Digital Communication & Media": {
+    "faculty": "Business and Communication",
+    "description": "The Digital Communication & Media program at Swiss German University equips students with essential skills to excel in a digital-first world. The curriculum covers digital communication strategies, media technology, and information systems, emphasizing public relations, digital journalism, digital marketing, multimedia content production, and media management. Students engage in hands-on learning through internships and research while gaining a global perspective in SGU’s multicultural environment.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM — Dean of Faculty of Business and Communication",
+      "Loina Lalolo Krina Perangin-angin, M.Si."
+    ],
+    "career_prospects": [
+      "Digital Marketing Manager",
+      "Social Media Manager",
+      "Content Strategist",
+      "Public Relations Specialist",
+      "UX Writer / Digital Copywriter",
+      "Data & Media Analyst",
+      "Multimedia Producer",
+      "Brand Strategist",
+      "Corporate Communication Manager",
+      "Performance Marketing Specialist"
+    ],
+    "keywords": [
+      "digital communication",
+      "media",
+      "marketing",
+      "journalism",
+      "content creation",
+      "public relations",
+      "analytics"
+    ]
+  },
+  "Global Strategic Communication": {
+    "faculty": "Business and Communication",
+    "description": "The Global Strategic Communication curriculum focuses on combining the study of media technology, public relations, journalism, strategic communications, and culture with a strong emphasis on international exposure. SGU prepares students with extensive global experience in language, culture, learning materials, lecturers, internships, and professional certifications such as Junior Public Relations (PERHUMAS/LSP PRI) and Digital English Journalism Certification from The Jakarta Post Foundation.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM — Dean of Faculty of Business and Communication",
+      "Deborah Nauli S., Ph.D — Senior Lecturer of Global Strategic Communications",
+      "Aulia Putri Meidina, S.Sos., M.A — Lecturer of Global Strategic Communications"
+    ],
+    "career_prospects": [
+      "Public Relations Specialist",
+      "Journalist",
+      "Communication Strategist",
+      "Media Relations Officer",
+      "Corporate Communication Executive",
+      "International Communication Consultant"
+    ],
+    "keywords": [
+      "strategic communication",
+      "public relations",
+      "journalism",
+      "media",
+      "international",
+      "culture"
+    ]
+  },
+  "Hotel and Tourism Management": {
+    "faculty": "Business and Communication",
+    "description": "The Hotel and Tourism Management program at Swiss German University offers a Bachelor’s Degree with opportunities to study and complete internship programs in Germany, Switzerland, or other international destinations. Through a double degree collaboration with the International Management Institute (IMI) Switzerland, students learn in one of the world’s leading hospitality environments. Graduates earn degrees from SGU, IMI, and IMI’s partner university, equipping them with the skills and qualifications to enter the international hospitality industry.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM — Dean of Faculty of Business and Communication",
+      "Robert La Are SST. Par, M. Par. — Head",
+      "Rano Abryanto — Deputy Head"
+    ],
+    "career_prospects": [
+      "Hotel Manager",
+      "Restaurant Manager",
+      "Food and Beverage Supervisor",
+      "Travel and Tourism Consultant",
+      "Event and Marketing Coordinator",
+      "Hospitality Entrepreneur"
+    ],
+    "keywords": [
+      "hotel",
+      "tourism",
+      "hospitality",
+      "management",
+      "travel",
+      "international",
+      "service"
+    ]
+  },
+  "International Culinary Business": {
+    "faculty": "Business and Communication",
+    "description": "The International Culinary Business program, offered in partnership with the International Management Institute (IMI) Switzerland, provides a double degree education that blends practical culinary training with business management. Students take culinary courses with experienced SGU lecturers in Indonesia and world-class European culinary training in Switzerland. The curriculum develops advanced culinary techniques and entrepreneurial skills to prepare students as future leaders and innovators in the culinary industry.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM — Dean of Faculty of Business and Communication",
+      "Robert La Are SST. Par, M. Par. — Head",
+      "Rano Abryanto — Deputy Head"
+    ],
+    "career_prospects": [
+      "Chef Owner (Restaurant, Café, Bakery)",
+      "Professional Chef",
+      "Culinary Consultant",
+      "Food Stylist",
+      "Catering Service Owner",
+      "Cruise Staff",
+      "Culinary Entrepreneur"
+    ],
+    "keywords": [
+      "culinary",
+      "business",
+      "hospitality",
+      "management",
+      "chef",
+      "entrepreneurship",
+      "gastronomy"
+    ]
+  },
+  "Pharmaceutical Engineering": {
+    "faculty": "Life Sciences and Technology",
+    "description": "Swiss German University (SGU) is the first and only university in Indonesia offering a Bachelor’s Degree (S1) in Pharmaceutical Chemical Engineering. This program focuses on the design, operation, and optimization of processes in the pharmaceutical industry. It prepares students for careers in pharmaceutical, chemical, herbal, and cosmetics sectors, as well as in pharmaceutical equipment and machinery companies. SGU’s Pharmaceutical Chemical Engineering program is highly valued by national and multinational industries for producing skilled, industry-ready graduates.",
+    "lecturers": [
+      "Dr. Hery Sutanto, S.Si., M.Si — Dean of Faculty of Life Science & Technology",
+      "Dr.-Ing. Diah Indriani Widiputri, S.T., MSc — Head",
+      "Silvya Yusri, S.Si., M.T. — Deputy Head",
+      "Dr.-Ing. Samuel P. Kusumocahyo — Lecturer (Rector of SGU)",
+      "Dr. Evita H. Legowo — Lecturer",
+      "Dr. Irvan Setiadi Kartawiria, S.T., M.Sc. — Lecturer"
+    ],
+    "career_prospects": [
+      "Pharmaceutical Process Engineer",
+      "Chemical Engineer",
+      "Cosmetic Product Developer",
+      "Pharmaceutical Equipment Specialist",
+      "Consultant",
+      "Researcher",
+      "Lecturer",
+      "Entrepreneur"
+    ],
+    "keywords": [
+      "pharmaceutical",
+      "chemical engineering",
+      "bioprocess",
+      "cosmetics",
+      "manufacturing",
+      "research"
+    ]
+  },
+  "Food Technology": {
+    "faculty": "Life Sciences and Technology",
+    "description": "The Food Technology program at SGU covers all aspects of the food processing industry, including raw material characteristics, food packaging, storage technology, food safety, and quality assurance. Students also gain insight into product development and the economic aspects of the food business. Graduates are known for their technical expertise, teamwork skills, and readiness to enter the workforce, making them highly sought after by food and related industries in Indonesia.",
+    "lecturers": [
+      "Dr. Hery Sutanto, S.Si., M.Si — Dean of Faculty of Life Science & Technology",
+      "Dr. Irvan Setiadi Kartawiria, S.T., M.Sc — Head",
+      "Della Rahmawati, S.Si, M.Si, PhD — Deputy Head",
+      "Dr. rer. nat. Filiana Santoso — Lecturer",
+      "Dr. Ir. Abdullah Muzi Marpaung, MP. — Lecturer",
+      "Maria D.P.T. Gunawan, M.Sc, Ph.D — Lecturer",
+      "Tabligh Permana, S.Si., M.Si. — Lecturer",
+      "Febbyandi Isnanda Pandiangan, S.Gz., M.Sc. — Lecturer",
+      "Elisabeth Kartika Prabawati, STP., MFoodSt., Ph.D — Lecturer"
+    ],
+    "career_prospects": [
+      "Food Product Developer",
+      "Quality Assurance Specialist",
+      "Food Safety Officer",
+      "Production Supervisor",
+      "Food Business Consultant",
+      "Researcher",
+      "Food Analyst",
+      "Entrepreneur"
+    ],
+    "keywords": [
+      "food",
+      "technology",
+      "nutrition",
+      "processing",
+      "safety",
+      "packaging",
+      "innovation"
+    ]
+  },
+  "Medical Biotechnology": {
+    "faculty": "Life Sciences and Technology",
+    "description": "The Medical Biotechnology program at SGU equips students with advanced knowledge and hands-on experience in biotechnology applications for healthcare, genetics, and pharmaceuticals. Over 3.5 years of study (2 years in Indonesia and 1.5 years in Germany), students explore genomics, bioinformatics, and biomedical data science, supported by international exposure and a double degree from Aalen University of Applied Sciences, Germany. The program prepares graduates to contribute to drug discovery, diagnostics, and healthcare innovation globally.",
+    "lecturers": [
+      "Dr. Hery Sutanto, S.Si., M.Si — Dean of Faculty of Life Science & Technology",
+      "Aulia Arif Iskandar, S.T., M.T — Head",
+      "Dr. Muhammad Fathony — Lecturer",
+      "Kholis Audah, Ph.D — Lecturer",
+      "Fuad Ughi — Lecturer"
+    ],
+    "career_prospects": [
+      "Biotechnology Researcher",
+      "Biomedical Scientist",
+      "Pharmaceutical Research Associate",
+      "Bioinformatics Analyst",
+      "Clinical Laboratory Specialist",
+      "Medical Data Scientist",
+      "Healthcare Consultant",
+      "Research and Development Engineer"
+    ],
+    "keywords": [
+      "biotechnology",
+      "medical",
+      "genomics",
+      "bioinformatics",
+      "drug development",
+      "healthcare"
+    ]
+  },
+  "Sustainable Energy and Environment": {
+    "faculty": "Life Sciences and Technology",
+    "description": "The Sustainable Energy and Environment program under the Chemical Engineering Department addresses global sustainability challenges related to energy, water, and the environment. It focuses on renewable energy, energy conservation, and sustainable resource management. The program aims to produce professionals capable of driving innovation and sustainability in Indonesia and globally, contributing to cleaner energy solutions and environmental protection.",
+    "lecturers": [
+      "Dr. Hery Sutanto, S.Si., M.Si — Dean of Faculty of Life Science & Technology",
+      "Dr.-Ing. Diah Indriani Widiputri, S.T., MSc — Head",
+      "Silvya Yusri, S.Si., M.Si — Deputy Head",
+      "Dr.-Ing. Evita H. Legowo — Lecturer",
+      "Dr. Irvan Setiadi Kartawiria, S.T., M.Sc — Lecturer"
+    ],
+    "career_prospects": [
+      "Renewable Energy Engineer",
+      "Environmental Consultant",
+      "Sustainability Specialist",
+      "Energy Analyst",
+      "Water Resource Engineer",
+      "Researcher",
+      "Chemical Engineer",
+      "Entrepreneur"
+    ],
+    "keywords": [
+      "sustainability",
+      "energy",
+      "environment",
+      "renewable",
+      "chemical engineering",
+      "water resources"
+    ]
+  }
 }
