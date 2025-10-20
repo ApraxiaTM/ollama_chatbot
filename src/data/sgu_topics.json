@@ -1,0 +1,122 @@
+{
+  "about": {
+    "summary": "Swiss German University (SGU) was established in 2000 with Indonesian–German–Swiss–Austrian collaboration. It pioneers international curricula in Indonesia with English-medium instruction and double-degree paths with European partners.",
+    "highlights": [
+      "International double degree (Indonesia + Europe)",
+      "17 Bachelor’s and 6 Master’s programs",
+      "Small classes and industry-aligned learning",
+      "Mandatory internships (domestic and abroad)"
+    ],
+    "vision": "To be a globally recognized university with integrity, superior learning culture, diversity, and high social responsibility.",
+    "values": ["Resilient", "Adaptive", "Proactive", "Integrity", "Discipline", "Social Care"]
+  },
+  "faculties": [
+    {
+      "name": "Engineering and Information Technology",
+      "programs": [
+        {
+          "name": "Mechatronics Engineering",
+          "notes": [
+            "Integrated mechanical/electrical/computing; Siemens Certification Program partner",
+            "Fast-track with University of Missouri Kansas City (UMKC)"
+          ],
+          "careers": ["Automation engineer", "IoT/embedded systems", "Smart manufacturing"]
+        },
+        {
+          "name": "Hybrid Electric Vehicles",
+          "notes": ["Prepares for EV systems, energy management, and automotive software"],
+          "careers": ["Engineer", "Researcher", "Software developer", "Energy systems"]
+        },
+        {
+          "name": "IT: Cyber Security",
+          "notes": ["Ethical hacking, malware analysis, cyber threat intelligence"],
+          "careers": ["Cybersecurity analyst", "Penetration tester", "Security engineer"]
+        },
+        {
+          "name": "IT: AI & Data Science",
+          "notes": ["NLP, computer vision, ML engineering; UMKC fast-track"],
+          "careers": ["Data scientist", "ML engineer", "AI researcher"]
+        },
+        {
+          "name": "IT: Technopreneurship",
+          "notes": ["Startup-building, big data, modern web/mobile stacks"],
+          "careers": ["Founder", "Full-stack developer", "Product/tech lead"]
+        },
+        {
+          "name": "Industrial Engineering: Smart Industry",
+          "notes": ["AI/data analytics for optimization; Industry 4.0 and circular economy"],
+          "careers": ["Digital transformation lead", "Data-driven operations", "Quality/consulting"]
+        },
+        {
+          "name": "Industrial Engineering: Eco Industry",
+          "notes": ["Sustainability, green manufacturing, reverse logistics"],
+          "careers": ["Sustainability engineer", "Waste management", "Green consulting"]
+        }
+      ]
+    },
+    {
+      "name": "Business and Communication",
+      "programs": [
+        {
+          "name": "Business and Management",
+          "concentrations": ["Digital Marketing", "Finance & Business Analytics", "Innovative Entrepreneurship"],
+          "careers": ["Brand/PR manager", "Export/Import manager", "Finance manager", "Entrepreneur"]
+        },
+        {
+          "name": "Business Accounting",
+          "notes": ["Internships in KAP/non-KAP; SAP/audit tooling exposure"],
+          "careers": ["Auditor", "Tax specialist", "Financial analyst", "Controller"]
+        },
+        {
+          "name": "Digital Communication & Media Arts (2+2 with MCU Taipei)",
+          "careers": ["Digital marketing manager", "Content strategist", "Media producer", "PR specialist"]
+        },
+        {
+          "name": "Digital Communication & Media",
+          "notes": ["AI in communication, social media marketing, multimedia production"],
+          "careers": ["Social media manager", "UX writer", "Performance marketing specialist"]
+        },
+        {
+          "name": "Global Strategic Communication",
+          "notes": ["International exposure; PR and digital journalism certifications"],
+          "careers": ["Communications specialist", "Journalist", "PR consultant"]
+        },
+        {
+          "name": "Hotel and Tourism Management",
+          "notes": ["Double degree with IMI Switzerland; internships abroad"],
+          "careers": ["Hotel operations", "Events/marketing", "Hospitality management"]
+        },
+        {
+          "name": "International Culinary Business",
+          "notes": ["Double degree with IMI; entrepreneurship focus"],
+          "careers": ["Chef/owner", "Culinary consultant", "Food stylist"]
+        }
+      ]
+    },
+    {
+      "name": "Life Sciences and Technology",
+      "programs": [
+        {
+          "name": "Pharmaceutical Engineering",
+          "notes": ["Chemical engineering focus for pharma design/operations"],
+          "careers": ["Process engineer", "Pharma manufacturing", "Consultant/researcher"]
+        },
+        {
+          "name": "Food Technology",
+          "notes": ["End-to-end food processing, safety, packaging, and product development"],
+          "careers": ["Food product developer", "Quality assurance", "Ingredient industry"]
+        },
+        {
+          "name": "Medical Biotechnology",
+          "notes": ["Genomics, bioinformatics, biomedical data science; double degree with Aalen University (DE)"],
+          "careers": ["Biopharma R&D", "Clinical diagnostics", "Bioinformatics"]
+        },
+        {
+          "name": "Sustainable Energy and Environment",
+          "notes": ["Renewables, conservation, water/environmental engineering"],
+          "careers": ["Renewable energy engineer", "Process/environmental engineer", "Consultant"]
+        }
+      ]
+    }
+  ]
+}
