@@ -1,7 +1,8 @@
 // src/knowledge/knowledgeBase.js
 import faqs from '../data/faqs.json';
-import topics from '../data/sgu_topics.json';
+import sguTopics from '../data/sgu_topics.json';
 
+// ---------- UTILITIES ----------
 function norm(s) {
   return String(s || '')
     .toLowerCase()
@@ -11,7 +12,6 @@ function norm(s) {
     .trim();
 }
 
-// very light stemming for plurals
 function stemWord(w) {
   if (w.endsWith('ies')) return w.slice(0, -3) + 'y';
   if (w.endsWith('s') && !w.endsWith('ss')) return w.slice(0, -1);
@@ -20,27 +20,6 @@ function stemWord(w) {
 
 function tokenize(s) {
   return norm(s).split(' ').map(stemWord).filter(Boolean);
-}
-
-const SYNONYM_MAP = new Map([
-  ['graduate', 'alumni'],
-  ['graduates', 'alumni'],
-  ['stand', 'stand'],
-  ['out', 'out'],
-  ['unique', 'standout'],
-  ['recognize', 'recognized'],
-  ['recognised', 'recognized'],
-  ['degree', 'degree'],
-  ['double', 'double'],
-]);
-
-function expandTokens(toks) {
-  const out = new Set(toks);
-  for (const t of toks) {
-    const syn = SYNONYM_MAP.get(t);
-    if (syn) out.add(syn);
-  }
-  return Array.from(out);
 }
 
 function jaccard(aToks, bToks) {
@@ -52,118 +31,177 @@ function jaccard(aToks, bToks) {
   return inter / union;
 }
 
+// ---------- MAIN QUESTION->ANSWER RETRIEVER ----------
 export function getAnswer(query) {
   const qNorm = norm(query);
-  const qToks = expandTokens(tokenize(qNorm));
+  const qTokens = tokenize(qNorm);
+
   let best = null;
   let bestScore = 0;
 
+  // -------- 1) Try FAQs --------
   for (const item of faqs) {
-    const tNorm = norm(item.q);
-    const tToks = expandTokens(tokenize(tNorm));
-    // exact or substring boosts
+    const questionNorm = norm(item.q);
+    const questionTokens = tokenize(questionNorm);
     let score = 0;
-    if (tNorm === qNorm) score = 1.0;
-    else if (tNorm.includes(qNorm) || qNorm.includes(tNorm)) score = 0.9;
-    else score = jaccard(qToks, tToks);
+    if (questionNorm === qNorm) score = 1;
+    else if (questionNorm.includes(qNorm) || qNorm.includes(questionNorm)) score = 0.9;
+    else score = jaccard(qTokens, questionTokens);
 
     if (score > bestScore) {
-      best = item;
+      best = { type: 'faq', question: item.q, answer: item.a };
       bestScore = score;
     }
   }
 
-  if (!best) return null;
+  // -------- 2) Try topic-level match --------
+  for (const [topicName, topicData] of Object.entries(sguTopics)) {
+    const desc = [
+      topicName,
+      topicData.faculty,
+      topicData.description,
+      ...(topicData.values || []),
+      ...(topicData.vision ? [topicData.vision] : []),
+      ...(topicData.mission || []),
+      ...(topicData.keywords || []),
+      ...(topicData.career_prospects || []),
+      ...(topicData.lecturers || [])
+    ].join(' ');
 
-  // Convert to 0..100 range for the UI threshold
-  return {
-    answer: best.a,
-    match: best.q,
-    score: Math.round(bestScore * 100)
-  };
-}
+    const descNorm = norm(desc);
+    const topicTokens = tokenize(descNorm);
 
-export function search(term) {
-  const t = norm(term);
-  const faqHits = [];
-  for (const item of faqs) {
-    const qn = norm(item.q);
-    const an = norm(item.a);
-    if (qn.includes(t) || an.includes(t)) {
-      faqHits.push(item);
-    } else {
-      const sim = jaccard(expandTokens(tokenize(t)), expandTokens(tokenize(qn + ' ' + an)));
-      if (sim >= 0.3) faqHits.push(item);
+    const score = jaccard(qTokens, topicTokens);
+    if (score > bestScore) {
+      best = { type: 'topic', topic: topicName, data: topicData };
+      bestScore = score;
     }
   }
 
-  const topicHits = [];
-  if (topics?.faculties) {
-    const tToks = expandTokens(tokenize(t));
-    for (const fac of topics.faculties) {
-      const facName = norm(fac.name);
-      if (facName.includes(t)) topicHits.push({ path: `faculties.${fac.name}`, text: fac.name });
-      for (const p of fac.programs || []) {
-        const fields = [
-          p.name,
-          ...(p.concentrations || []),
-          ...(p.notes || []),
-          ...(p.careers || [])
-        ].filter(Boolean);
-        const joined = norm(fields.join(' '));
-        const sim = jaccard(tToks, expandTokens(tokenize(joined)));
-        if (joined.includes(t) || sim >= 0.3) {
-          topicHits.push({ path: `faculties.${fac.name}.programs.${p.name}`, text: fields.join(' • ') });
-        }
+  // -------- 3) Faculty-level aggregation fallback --------
+  if (!best || bestScore < 0.6) {
+    const facultyMatch = /faculty of ([a-z\s&]+)/i.exec(query);
+    if (facultyMatch) {
+      const facultyTerm = facultyMatch[1].trim().toLowerCase();
+      const matches = Object.entries(sguTopics).filter(([_, val]) =>
+        norm(val.faculty).includes(facultyTerm)
+      );
+
+      if (matches.length > 0) {
+        const lecturerList = matches
+          .flatMap(([name, val]) =>
+            (val.lecturers || []).map((l) => `• ${name}: ${l}`)
+          )
+          .join('\n');
+        return {
+          answer: `Here are lecturers from the Faculty of ${facultyTerm}:\n\n${lecturerList}`,
+          match: `Faculty of ${facultyTerm}`,
+          score: 95,
+          source: 'faculty-aggregate'
+        };
       }
     }
   }
-  const aboutFields = [
-    topics?.about?.summary,
-    topics?.about?.vision,
-    ...(topics?.about?.highlights || []),
-    ...(topics?.about?.values || [])
-  ].filter(Boolean);
-  const aboutJoined = norm(aboutFields.join(' '));
-  if (aboutJoined.includes(t) || jaccard(expandTokens(tokenize(t)), expandTokens(tokenize(aboutJoined))) >= 0.3) {
-    topicHits.push({ path: 'about', text: aboutFields.join(' • ') });
+
+  // -------- 4) Build final answer --------
+  if (!best) return null;
+
+  if (best.type === 'faq') {
+    return {
+      answer: best.answer,
+      match: best.question,
+      score: Math.round(bestScore * 100),
+      source: 'faq'
+    };
+  }
+
+  const t = best.data;
+  const composed =
+    t.description ||
+    `This program belongs to ${t.faculty}. Learn more about ${best.topic} at SGU.`;
+
+  return {
+    answer: composed,
+    match: best.topic,
+    score: Math.round(bestScore * 100),
+    source: 'topic'
+  };
+}
+
+// ---------- SEARCH FUNCTION (for hint building) ----------
+export function search(term) {
+  const tNorm = norm(term);
+  const tTokens = tokenize(tNorm);
+  const faqHits = [];
+  const topicHits = [];
+
+  // FAQ search
+  for (const item of faqs) {
+    const qn = norm(item.q);
+    const an = norm(item.a);
+    const sim = jaccard(tTokens, tokenize(qn + ' ' + an));
+    if (qn.includes(tNorm) || an.includes(tNorm) || sim >= 0.4) faqHits.push(item);
+  }
+
+  // Topic search
+  for (const [key, val] of Object.entries(sguTopics)) {
+    const combined = norm(
+      [
+        key,
+        val.faculty,
+        val.description,
+        ...(val.keywords || []),
+        ...(val.career_prospects || []),
+        ...(val.lecturers || []),
+        ...(val.mission || []),
+        val.vision || ''
+      ].join(' ')
+    );
+    const sim = jaccard(tTokens, tokenize(combined));
+    if (combined.includes(tNorm) || sim >= 0.4)
+      topicHits.push({ path: key, text: val.description || '', data: val });
   }
 
   return { faqHits, topicHits };
 }
 
+// ---------- SGU RELATEDNESS CHECK ----------
 export function isLikelySGURelatedKB(query) {
   const q = norm(query);
   if (!q) return false;
 
-  // Quick substring cues that are very common
-  const quickCues = ['sgu', 'swiss german', 'swiss-german', 'double degree', 'campus', 'faculty', 'program'];
-  for (const c of quickCues) {
-    if (q.includes(c)) return true;
+  const quickCues = [
+    'sgu',
+    'swiss german',
+    'swiss-german',
+    'program',
+    'faculty',
+    'degree',
+    'campus',
+    'lecture',
+    'internship',
+    'admission',
+    'university'
+  ];
+  if (quickCues.some((c) => q.includes(c))) return true;
+
+  // similarity with any topic
+  for (const [name, data] of Object.entries(sguTopics)) {
+    const joined = norm(
+      [name, data.faculty, ...(data.keywords || []), data.description || ''].join(' ')
+    );
+    const sim = jaccard(tokenize(q), tokenize(joined));
+    if (sim >= 0.35) return true;
   }
 
-  // Soft similarity vs. all FAQ titles
-  let maxFaq = 0;
-  for (const item of faqs) {
-    const score = jaccard(expandTokens(tokenize(q)), expandTokens(tokenize(item.q)));
-    if (score > maxFaq) maxFaq = score;
-    if (maxFaq >= 0.35) break; // early exit
+  // fallback to FAQ
+  for (const f of faqs) {
+    const sim = jaccard(tokenize(q), tokenize(norm(f.q)));
+    if (sim >= 0.35) return true;
   }
-
-  // Soft similarity vs. topic names
-  let maxTopic = 0;
-  for (const fac of topics?.faculties || []) {
-    maxTopic = Math.max(maxTopic, jaccard(expandTokens(tokenize(q)), expandTokens(tokenize(fac.name))));
-    for (const p of fac.programs || []) {
-      const joined = [p.name, ...(p.concentrations || [])].join(' ');
-      maxTopic = Math.max(maxTopic, jaccard(expandTokens(tokenize(q)), expandTokens(tokenize(joined))));
-      if (maxFaq >= 0.35 || maxTopic >= 0.35) break;
-    }
-    if (maxFaq >= 0.35 || maxTopic >= 0.35) break;
-  }
-
-  return maxFaq >= 0.35 || maxTopic >= 0.35;
+  return false;
 }
 
-export { faqs, topics };
-export default { faqs, topics, getAnswer, search, isLikelySGURelatedKB };
+// ---------- EXPORTS ----------
+export { faqs, sguTopics };
+export default { faqs, sguTopics, getAnswer, search, isLikelySGURelatedKB };
