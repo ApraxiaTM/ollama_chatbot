@@ -7,7 +7,7 @@ import { chatStream } from '../services/api';
 const ALLOWED_DOMAINS = ['sgu.ac.id', 'my.sgu.ac.id'];
 
 // Retrieval behavior
-const RETRIEVAL = { immediateAnswerMinScore: 60, includeHintsAsContext: true, maxHints: 3 };
+const RETRIEVAL = { immediateAnswerMinScore: 90, includeHintsAsContext: true, maxHints: 3 };
 
 // Check if text contains disallowed external links
 function containsDisallowedLink(text) {
@@ -130,6 +130,7 @@ export default function useChat() {
 
     // Knowledge retrieval step
     const retrieval = await retrieveFallback(text);
+    console.log('KB retrieval result:', retrieval);
 
     // Check if we have any hits
     const hasAnyHit =
