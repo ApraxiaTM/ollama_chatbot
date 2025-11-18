@@ -1,0 +1,2383 @@
+{
+  "About SGU": {
+    "description": "Swiss German University (SGU) was established in 2000 as a joint effort between Indonesia, Germany, Switzerland, and Austria. SGU is the pioneer in offering international curricula in Indonesia. Qualified students can graduate with a Double Degree from Indonesia and Germany, which SGU provides in cooperation with partner universities.",
+    "vision": "To be a globally recognized university with integrity, superior learning culture, diversity, and high social responsibility, which inspires character transformation and develops young leaders who are responsible and fully equipped to face life’s challenges.",
+    "mission": [
+      "Placing discipline and integrity as core values in every activity to develop character transformation of the civitas academica.",
+      "Organizing an internationally oriented education with a high-quality learning culture that focuses on professionalism, innovation, and excellence.",
+      "Carrying out globally recognized research emphasizing the advancement of science and its application.",
+      "Carrying out community service and playing an active role in society as a form of social care and dedication to Indonesia."
+    ],
+    "values": [
+      "Resilient",
+      "Adaptive",
+      "Proactive",
+      "Integrity",
+      "Discipline",
+      "Social Care"
+    ],
+    "double degree partners": [
+      {
+        "university": "Hochschule Albstadt-Sigmaringen",
+        "country": "Germany"
+      },
+      {
+        "university": "Ernst-Abbe-Hochschule Jena",
+        "country": "Germany"
+      },
+      {
+        "university": "IMI",
+        "country": "Switzerland"
+      },
+      {
+        "university": "Fachhochschule Südwestfalen",
+        "country": "Germany"
+      },
+      {
+        "university": "Hokkaido University",
+        "country": "Japan"
+      },
+      {
+        "university": "Solbridge International School of Business",
+        "country": "South Korea"
+      },
+      {
+        "university": "Ming Chuan University",
+        "country": "Taiwan"
+      }
+    ]
+  },
+  "Mechatronics Engineering": {
+    "faculty": "Engineering and Information Technology",
+    "description": "Mechatronics refers to an integrated approach to the multi-disciplinary field involving mechanical engineering, electronics, and computer sciences. The applications of this field are numerous, ranging from manufacturing automation to “smart” product designs. Currently, factories from various industries continue to develop and prioritize automation. This industrial revolution is the reason why mechatronic engineers are always needed.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dr. Yunita Umniyati, S.Si., M.Sc — Head",
+      "Hartono, S.T., M.T. — Deputy Head",
+      "Leonard Rusli, Ph.D — Lecturer (Vice Rector)",
+      "Edward Boris P. Manurung, M.Eng — Lecturer",
+      "Dr. Rusman Rusyadi — Lecturer",
+      "Dena Hendriana, B.Sc., S.M., Sc.D. — Lecturer",
+      "Erikson F. Sinaga, S.T., M.Kom. — Deputy Head"
+    ],
+    "career_prospects": [
+      "Automation Engineer",
+      "IoT Developer",
+      "System Engineer"
+    ],
+    "keywords": [
+      "mechatronics",
+      "robotics",
+      "engineering",
+      "mechanical",
+      "electronics",
+      "computer"
+    ],
+    "international academic experience": {
+      "joint degree program": {
+        "partner university": "Fachhochschule Südwestfalen",
+        "duration": "approximately 7 months",
+        "degrees awarded": [
+          "Sarjana Teknik (S.T.)",
+          "Bachelor of Engineering (B.Eng.)"
+        ]
+      },
+      "internship program": "ensures students receive global professional experience.",
+      "student exchange": "provides opportunities to experience student exchange in several European and Asian countries.",
+      "global career opportunities": "prepares students for global careers in local and international companies.",
+      "fast track program": "accelerate success with the SGU - University of Missouri Kansas City Fast Track Program."
+    },
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "English 1",
+          "Discrete Math",
+          "Physics 1",
+          "Physics 1 Laboratory",
+          "Electrical Engineering 1*",
+          "Electrical Engineering 1 Lab*",
+          "Algorithm, Programming & Data Structure 1",
+          "Technical Drawing & CAD",
+          "Introduction to Mechatronic Systems*",
+          "Engineering Statics*",
+          "Extracurricular Courses",
+          "German Language and Culture 1"
+        ]
+      },
+      "semester 2": {
+        "courses": [
+          "English 2",
+          "Calculus",
+          "Physics 2",
+          "Physics 2 Laboratory",
+          "Electrical Engineering 2*",
+          "Electrical Engineering 2 Lab*",
+          "Algorithm, Programming & Data Structure 2",
+          "Strength of Materials*",
+          "Linear Algebra",
+          "Chemistry",
+          "Extracurricular Courses",
+          "German Language and Culture 2"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "English 3",
+          "Control Techniques*",
+          "Kinematics & Dynamics",
+          "Sensors and Instrumentation*",
+          "Analog and Digital Electronics*",
+          "Thermodynamics and Fluid Mechanics",
+          "Differential Equation",
+          "Statistics"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "English 4",
+          "Machine Design*",
+          "Electro-Hydraulics*",
+          "Electro-Pneumatics*",
+          "Microcontroller*",
+          "Manufacturing Processes*",
+          "Power Electronics",
+          "Manufacturing Process Management* (Lean)",
+          "Introduction to Entrepreneurship (IBA)",
+          "Extracurricular Courses",
+          "German Language and Culture 3"
+        ]
+      },
+      "semester 5": {
+        "courses": [
+          "Programmable Logic Controllers*",
+          "Electric Drive*",
+          "Project Management (IE)",
+          "Engineering Economics (IE)",
+          "Internship 1",
+          "Manufacturing Process Workshop (Training)",
+          "Elective Subject 1",
+          "Elective Subject 2",
+          "Extracurricular Courses",
+          "German Language and Culture 4"
+        ]
+      },
+      "semester 6": {
+        "courses": [
+          "Basic of Electrical Engineering",
+          "Introduction to Project Management",
+          "Model Based Design",
+          "Internship 2*",
+          "Elective Subject 4",
+          "Current Developments in Business IT",
+          "Advanced Programming",
+          "IS-Project",
+          "German Language (C1)",
+          "Seminar (Focus Seminar)"
+        ]
+      },
+      "semester 7": {
+        "courses": [
+          "English 5",
+          "Indonesian Language",
+          "Research Methodology",
+          "Mechatronics System Design*",
+          "Process Automation*",
+          "Elective Subject 3**",
+          "Optional: Internship in Germany"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "Character & Professional Development",
+          "SMSCP Exam Preparation*",
+          "SMSCP Competence Certification*",
+          "Bachelor Thesis",
+          "Pancasila and Civics",
+          "Ethics and Religious Philosophy"
+        ]
+      }
+    }
+  },
+  "Hybrid Electric Vehicles": {
+    "faculty": "Engineering and Information Technology",
+    "description": "Studying Hybrid Electric Vehicles is not just about following technological trends; it also provides the ability to adapt to industrial changes and make a positive contribution to global challenges related to transportation and the environment. The Hybrid Electric Vehicles program prepares students to become professionals who can contribute to the development and implementation of sustainable and environmentally friendly transportation solutions. Additionally, the program often includes practical projects and collaborations with the automotive industry to provide students with hands-on experience.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dr. Yunita Umniyati, S.Si., M.Sc — Head",
+      "Erikson F. Sinaga, S.T., M.Kom. — Deputy Head",
+      "Leonard Rusli, Ph.D — Lecturer (Vice Rector)",
+      "Edward Boris P. Manurung, M.Eng — Lecturer",
+      "Dr. Rusman Rusyadi — Lecturer",
+      "Dena Hendriana, B.Sc., S.M., Sc.D. — Lecturer",
+      "Dr. Ir. Henry Nasution, M.T, IPP — Lecturer"
+    ],
+    "career_prospects": [
+      "Engineer",
+      "Researcher",
+      "Vehicle Software Developer",
+      "Energy Management and Charging",
+      "Technopreneur",
+      "Supply Chain Manager",
+      "Project Manager",
+      "Vehicle Engineer"
+    ],
+    "keywords": [
+      "hybrid",
+      "electric",
+      "vehicles",
+      "automotive",
+      "sustainability",
+      "energy",
+      "engineering"
+    ],
+    "international academic experience": {
+      "joint degree program": {
+        "partner university": "fachhochschule südwestfalen",
+        "duration": "approximately 7 months",
+        "degrees awarded": [
+          "sarjana teknik (s.t.)",
+          "bachelor of engineering (b.eng.)"
+        ]
+      },
+      "internship program": "ensures students receive global professional experience.",
+      "student exchange": "provides opportunities to experience student exchange in several european and asian countries.",
+      "global career opportunities": "prepares students for global careers in local and international companies.",
+      "fast track program": "accelerate success with the sgu - university of missouri kansas city fast track program."
+    },
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "english 1",
+          "discrete math",
+          "physics 1",
+          "physics 1 laboratory",
+          "electrical engineering 1*",
+          "electrical engineering 1 lab*",
+          "algorithm, programming & data structure 1",
+          "technical drawing & cad",
+          "introduction to mechatronic systems*",
+          "engineering statics*",
+          "extracurricular courses",
+          "german language and culture 1"
+        ]
+      },
+      "semester 2": {
+        "courses": [
+          "english 2",
+          "calculus",
+          "physics 2",
+          "physics 2 laboratory",
+          "electrical engineering 2*",
+          "electrical engineering 2 lab*",
+          "algorithm, programming & data structure 2",
+          "strength of materials*",
+          "linear algebra",
+          "chemistry",
+          "extracurricular courses",
+          "german language and culture 2"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "english 3",
+          "control techniques*",
+          "kinematics & dynamics",
+          "sensors and instrumentation*",
+          "analog and digital electronics*",
+          "thermodynamics and fluid mechanics",
+          "differential equation",
+          "statistics"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "english 4",
+          "machine design*",
+          "microcontroller*",
+          "power electronics",
+          "introduction to automotive system",
+          "electrical and electronic systems",
+          "internal combustion engine",
+          "hev manufacturing processes",
+          "extracurricular courses",
+          "german language and culture 3"
+        ]
+      },
+      "semester 5": {
+        "courses": [
+          "electric drive*",
+          "internship 1",
+          "manufacturing process workshop (training)",
+          "battery and energy storage system",
+          "vehicle power management: modelling, control and optimization",
+          "elective subject 1",
+          "elective subject 2",
+          "extracurricular courses",
+          "german language and culture 4"
+        ]
+      },
+      "semester 6": {
+        "courses": [
+          "basic of electrical engineering",
+          "introduction to project management",
+          "model based design",
+          "internship 2*",
+          "elective subject 4",
+          "current developments in business it",
+          "advanced programming",
+          "is-project",
+          "german language (c1)",
+          "seminar (focus seminar)"
+        ]
+      },
+      "semester 7": {
+        "courses": [
+          "english 5",
+          "indonesian language",
+          "research methodology",
+          "sustainable transportation system",
+          "capstone design project",
+          "project management (ie)",
+          "engineering economics (ie)",
+          "optional: internship in germany"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "character & professional development",
+          "ev competence certification*",
+          "bachelor thesis",
+          "pancasila and civics",
+          "ethics and religious philosophy"
+        ]
+      }
+    }
+  },
+  "IT: Cyber Security": {
+    "faculty": "Engineering and Information Technology",
+    "description": "Discover SGU IT’s Bachelor’s program in Cyber security, an exclusive specialization within our Information Technology curriculum. It is meticulously designed to equip students with the knowledge and skills needed to comprehend, analyze, and fortify against the ever-evolving landscape of cyber threats and attacks in the digital world. Students will have an opportunity to delve into essential facets such as Core Cyber Security Concepts, Technical Proficiencies, Security Policies, Compliance Strategies, Cyber Threat Intelligence, Secure System Design, Network Security, and Cyber Security Management. Our mission is to nurture forward-thinking experts poised to lead the charge in safeguarding our virtual realms. Embark on this transformative educational adventure with us, and together, we’ll shape the future of Cyber Security.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dipl.-Inf I Eng Kho — Head",
+      "Associate Professor James Purnama, S.Kom, M.Kom, M.Sc — Lecturer (Vice Rector)",
+      "Kalpin Erlangga Silaen, S.Si., M.Kom., CISSP, CEH, ECIH, ECSA, CHFI — Lecturer",
+      "Randy Anthony — Lecturer",
+      "Dr. Eka Budiarto, S.T., M.Sc — Lecturer",
+      "Dr. Ir. Mohammad A Soetomo, DSc — Lecturer",
+      "Dr. Ir. Charles Lim, Msc., Bsc., CSAP, Security+, CySA+, CND, CCSE, CTIA, CHFI, EDRP, ECSA, ECSP, ECIH, CEH, CEI — Lecturer",
+      "Dr. Ir. Heru Purnomo Ipung, M.Eng — Lecturer"
+    ],
+    "career_prospects": [
+      "Cybersecurity Analyst",
+      "Ethical Hacker/Penetration Tester",
+      "Security Consultant",
+      "Incident Responder",
+      "Security Architect",
+      "Security Engineer",
+      "Threat Intelligence Analyst"
+    ],
+    "keywords": [
+      "cybersecurity",
+      "information security",
+      "ethical hacking",
+      "malware",
+      "AI",
+      "blockchain",
+      "threat intelligence",
+      "network security"
+    ],
+    "international academic experience": {
+      "joint degree program": {
+        "partner universities": [
+          {
+            "name": "fachhochschule südwestfalen",
+            "duration": "approximately 7 months"
+          },
+          {
+            "name": "hochschule albstadt-sigmaringen",
+            "duration": "approximately 12 months"
+          }
+        ],
+        "degrees awarded": [
+          "sarjana komputer (s.kom.)",
+          "bachelor of engineering (b.eng.)"
+        ]
+      },
+      "internship program": "ensures students receive global professional experience.",
+      "student exchange": "provides opportunities to experience student exchange in several european and asian countries.",
+      "fast track program": "accelerate success with the sgu - university of missouri kansas city fast track program."
+    },
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "english 1",
+          "algorithms and object-oriented programming & lab",
+          "data science programming language",
+          "relational database design & lab",
+          "discrete mathematics",
+          "web design fundamental",
+          "analytical & creative thinking",
+          "statistics for data science",
+          "linux fundamental & computer network",
+          "extracurricular courses",
+          "german language and culture 1"
+        ]
+      },
+      "semester 2": {
+        "courses": [
+          "english 2",
+          "data structures & algorithms",
+          "server-side web programming",
+          "web development life cycle project",
+          "introduction to entrepreneurship",
+          "ethics & religious philosophy",
+          "linear algebra for data science",
+          "probability for data science",
+          "system admin & maintenance",
+          "extracurricular courses",
+          "german language and culture 2"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "english 3",
+          "client-side front-end web development",
+          "personal & professional development",
+          "non-relational database design & lab",
+          "advanced object-oriented programming",
+          "computer security & lab",
+          "ui/ux design & evaluation",
+          "backend system administration",
+          "extracurricular courses",
+          "german language and culture 3"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "english 4",
+          "back-end web development & tools",
+          "framework-based web programming",
+          "pancasila & civic",
+          "network security & lab",
+          "mobile web service & api (middleware)",
+          "introduction to artificial intelligence and laboratory",
+          "emerging technology in cybersecurity",
+          "extracurricular courses",
+          "german language and culture 4"
+        ]
+      },
+      "semester 5": {
+        "courses": [
+          "joint degree (hochschule albstadt-sigmaringen)",
+          "social engineering",
+          "introduction to cyberpsychology",
+          "digital forensics",
+          "offensive security methods",
+          "cyber security awareness and behaviour",
+          "it security management",
+          "mobile and cloud forensics",
+          "extracurricular courses",
+          "german as foreign language",
+          "joint degree (fachhochschule südwestfalen)",
+          "internship 1"
+        ]
+      },
+      "semester 6": {
+        "courses": [
+          "joint degree (hochschule albstadt-sigmaringen)",
+          "internship 2 (6 months)",
+          "joint degree (fachhochschule südwestfalen)",
+          "basics of electrical engineering",
+          "introduction to project management",
+          "model based design",
+          "internship 2 / project-based learning (1.5 months)",
+          "elective subjects",
+          "current developments in business it: basics in python",
+          "advanced programming",
+          "information systems (is) project"
+        ]
+      },
+      "semester 7": {
+        "courses": [
+          "english 5",
+          "research methodology",
+          "bahasa indonesia",
+          "data mining",
+          "native mobile app development & lab",
+          "secure software development life cycle",
+          "data science using python",
+          "ethical hacking",
+          "malware analysis",
+          "cyber threat intelligence",
+          "optional: pre joint degree (fachhochschule südwestfalen)",
+          "internship in germany"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "thesis",
+          "professional competence assessment (pca)",
+          "character and professional development program (cpdp)",
+          "cross-platform mobile app development"
+        ]
+      }
+    }
+  },
+  "IT: Artificial Intelligence & Data Science": {
+    "faculty": "Engineering and Information Technology",
+    "description": " Artificial intelligence has actually become something that we usually encounter through today’s technological sophistication, for example, the computer vision application on the Electronic Traffic Law Enforcement (e-tilang) system in Jakarta that uses smart cameras. In addition, there are many other things such as Natural Language Processing, Image Processing, Pattern Recognition, and many more. In today’s world, data science also has a big role to predict information and generate useful insights for various fields, such as decision making in business, politics, health, etc. Committed as a university that always aligns with industry demands, Swiss German University is ready to facilitate these needs through the Information Technology - Artificial Intelligence & Data Science study program.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dipl.-Inf I Eng Kho — Head",
+      "Associate Professor James Purnama, S.Kom, M.Kom, M.Sc — Lecturer (Vice Rector)",
+      "Kalpin Erlangga Silaen, S.Si., M.Kom., CISSP, CEH, ECIH, ECSA, CHFI — Lecturer",
+      "Randy Anthony — Lecturer",
+      "Dr. Eka Budiarto, S.T., M.Sc — Lecturer",
+      "Dr. Ir. Mohammad A Soetomo, DSc — Lecturer",
+      "Dr. Ir. Charles Lim, Msc., Bsc., CSAP, Security+, CySA+, CND, CCSE, CTIA, CHFI, EDRP, ECSA, ECSP, ECIH, CEH, CEI — Lecturer",
+      "Dr. Ir. Heru Purnomo Ipung, M.Eng — Lecturer"
+    ],
+    "career_prospects": [
+      "Data Scientist",
+      "AI Scientist",
+      "Machine Learning Engineer",
+      "AI Engineer",
+      "Big Data Analyst",
+      "Business Intelligence Analyst",
+      "Data Engineer",
+      "Computer Vision Engineer",
+      "NLP Engineer",
+      "Quantitative Analyst",
+      "AI Product Manager"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "data science",
+      "machine learning",
+      "deep learning",
+      "NLP",
+      "computer vision",
+      "big data",
+      "analytics"
+    ],
+    "international academic experience": {
+      "joint degree program": {
+        "partner universities": [
+          {
+            "name": "fachhochschule südwestfalen",
+            "duration": "approximately 7 months"
+          },
+          {
+            "name": "hochschule albstadt-sigmaringen",
+            "duration": "approximately 12 months"
+          }
+        ],
+        "degrees awarded": [
+          "sarjana komputer (s.kom.)",
+          "bachelor of engineering (b.eng.)"
+        ]
+      },
+      "internship program": "ensures students receive global professional experience.",
+      "student exchange": "provides opportunities to experience student exchange in several european and asian countries.",
+      "fast track program": "accelerate success with the sgu - university of missouri kansas city fast track program."
+    },
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "english 1",
+          "algorithms and object-oriented programming & lab",
+          "data science programming language",
+          "relational database design & lab",
+          "discrete mathematics",
+          "web design fundamental",
+          "analytical & creative thinking",
+          "statistics for data science",
+          "linux fundamental & computer network",
+          "extracurricular courses",
+          "german language and culture 1"
+        ]
+      },
+      "semester 2": {
+        "courses": [
+          "english 2",
+          "data structures & algorithms",
+          "server-side web programming",
+          "web development life cycle project",
+          "introduction to entrepreneurship",
+          "ethics & religious philosophy",
+          "linear algebra for data science",
+          "probability for data science",
+          "system admin & maintenance",
+          "extracurricular courses",
+          "german language and culture 2"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "english 3",
+          "client-side front-end web development",
+          "personal & professional development",
+          "non-relational database design & lab",
+          "advanced object-oriented programming",
+          "computer security & lab",
+          "ui/ux design & evaluation",
+          "backend system administration",
+          "extracurricular courses",
+          "german language and culture 3"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "english 4",
+          "back-end web development & tools",
+          "framework-based web programming",
+          "pancasila & civic",
+          "network security & lab",
+          "mobile web service & api (middleware)",
+          "introduction to artificial intelligence and laboratory",
+          "math for machine learning",
+          "extracurricular courses",
+          "german language and culture 4"
+        ]
+      },
+      "semester 5": {
+        "courses": [
+          "joint degree (hochschule albstadt-sigmaringen)",
+          "social engineering",
+          "introduction to cyberpsychology",
+          "digital forensics",
+          "offensive security methods",
+          "cyber security awareness and behaviour",
+          "it security management",
+          "mobile and cloud forensics",
+          "extracurricular courses",
+          "german as foreign language",
+          "joint degree (fachhochschule südwestfalen)",
+          "internship 1"
+        ]
+      },
+      "semester 6": {
+        "courses": [
+          "joint degree (hochschule albstadt-sigmaringen)",
+          "internship 2 (6 months)",
+          "joint degree (fachhochschule südwestfalen)",
+          "basics of electrical engineering",
+          "introduction to project management",
+          "model based design",
+          "internship 2 / project-based learning (1.5 months)",
+          "elective subjects",
+          "current developments in business it: basics in python",
+          "advanced programming",
+          "information systems (is) project"
+        ]
+      },
+      "semester 7": {
+        "courses": [
+          "english 5",
+          "research methodology",
+          "bahasa indonesia",
+          "data mining",
+          "native mobile app development & lab",
+          "secure software development life cycle",
+          "data science using python",
+          "machine learning & deep learning",
+          "pattern recognition & image processing",
+          "optional for joint degree (fachhochschule südwestfalen)",
+          "internship in germany"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "thesis",
+          "professional competence assessment (pca)",
+          "character and professional development program (cpdp)",
+          "cross-platform mobile app development"
+        ]
+      }
+    }
+  },
+  "IT: Technopreneurship": {
+    "faculty": "Engineering and Information Technology",
+    "description": "The emergence of startups around the world shows that the world will continue to need people with Information Technology insights, along with business skills. Since 2013, Swiss German University has also directed students to build startups. Some of them even won a grant funding competition from the Ministry of Research, Technology and Higher Education (Kemenristek) /BRIN in Calon Perusahaan Pemula Berbasiskan Teknologi scheme. The Information Technology - Technopreneurship study program was developed for those of you who also want to have a career as a startup founder. Our Technopreneurship students can collaborate with Business Management students to build a startup team in groups, to produce a minimum eligible product (MVP) which will be launched during the thesis exam.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dipl.-Inf I Eng Kho — Head",
+      "Associate Professor James Purnama, S.Kom, M.Kom, M.Sc — Lecturer (Vice Rector)",
+      "Kalpin Erlangga Silaen, S.Si., M.Kom., CISSP, CEH, ECIH, ECSA, CHFI — Lecturer",
+      "Randy Anthony — Lecturer",
+      "Dr. Eka Budiarto, S.T., M.Sc — Lecturer",
+      "Dr. Ir. Mohammad A Soetomo, DSc — Lecturer",
+      "Dr. Ir. Charles Lim, Msc., Bsc., CSAP, Security+, CySA+, CND, CCSE, CTIA, CHFI, EDRP, ECSA, ECSP, ECIH, CEH, CEI — Lecturer",
+      "Dr. Ir. Heru Purnomo Ipung, M.Eng — Lecturer"
+    ],
+    "career_prospects": [
+      "Enterprise Web/Mobile Application Developer",
+      "Network Administrator and Security Specialist",
+      "System Analyst",
+      "Big Data Analyst",
+      "Technopreneur",
+      "IT Consultant"
+    ],
+    "keywords": [
+      "technopreneurship",
+      "entrepreneurship",
+      "IT business",
+      "startups",
+      "AI",
+      "data science",
+      "innovation",
+      "technology management"
+    ],
+    "international academic experience": {
+      "joint degree program": {
+        "partner universities": [
+          {
+            "name": "fachhochschule südwestfalen",
+            "duration": "approximately 7 months"
+          },
+          {
+            "name": "hochschule albstadt-sigmaringen",
+            "duration": "approximately 12 months"
+          }
+        ],
+        "degrees awarded": [
+          "sarjana komputer (s.kom.)",
+          "bachelor of engineering (b.eng.)"
+        ]
+      },
+      "internship program": "ensures students receive global professional experience.",
+      "student exchange": "provides opportunities to experience student exchange in several european and asian countries.",
+      "fast track program": "accelerate success with the sgu - university of missouri kansas city fast track program."
+    },
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "english 1",
+          "algorithms and object-oriented programming & lab",
+          "data science programming language",
+          "relational database design & lab",
+          "discrete mathematics",
+          "web design fundamental",
+          "analytical & creative thinking",
+          "statistics for data science",
+          "linux fundamental & computer network",
+          "extracurricular courses",
+          "german language and culture 1"
+        ]
+      },
+      "semester 2": {
+        "courses": [
+          "english 2",
+          "data structures & algorithms",
+          "server-side web programming",
+          "web development life cycle project",
+          "introduction to entrepreneurship",
+          "ethics & religious philosophy",
+          "linear algebra for data science",
+          "probability for data science",
+          "system admin & maintenance",
+          "extracurricular courses",
+          "german language and culture 2"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "english 3",
+          "client-side front-end web development",
+          "personal & professional development",
+          "non-relational database design & lab",
+          "advanced object-oriented programming",
+          "computer security & lab",
+          "ui/ux design & evaluation",
+          "backend system administration",
+          "extracurricular courses",
+          "german language and culture 3"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "english 4",
+          "back-end web development & tools",
+          "framework-based web programming",
+          "pancasila & civic",
+          "network security & lab",
+          "mobile web service & api (middleware)",
+          "digital marketing for entrepreneurship",
+          "applied data analytics for business",
+          "extracurricular courses",
+          "german language and culture 4"
+        ]
+      },
+      "semester 5": {
+        "courses": [
+          "joint degree (hochschule albstadt-sigmaringen)",
+          "social engineering",
+          "introduction to cyberpsychology",
+          "digital forensics",
+          "offensive security methods",
+          "cyber security awareness and behaviour",
+          "it security management",
+          "mobile and cloud forensics",
+          "extracurricular courses",
+          "german as foreign language",
+          "joint degree (fachhochschule südwestfalen)",
+          "internship 1"
+        ]
+      },
+      "semester 6": {
+        "courses": [
+          "joint degree (hochschule albstadt-sigmaringen)",
+          "internship 2 (6 months)",
+          "joint degree (fachhochschule südwestfalen)",
+          "basics of electrical engineering",
+          "introduction to project management",
+          "model based design",
+          "internship 2 / project-based learning (1.5 months)",
+          "elective subjects",
+          "current developments in business it: basics in python",
+          "advanced programming",
+          "information systems (is) project"
+        ]
+      },
+      "semester 7": {
+        "courses": [
+          "english 5",
+          "research methodology",
+          "bahasa indonesia",
+          "data mining",
+          "native mobile app development & lab",
+          "secure software development life cycle",
+          "business development",
+          "business coaching",
+          "full-stack data analytics project in business",
+          "optional for joint degree (fachhochschule südwestfalen)",
+          "internship in germany"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "thesis",
+          "professional competence assessment (pca)",
+          "character and professional development program (cpdp)",
+          "cross-platform mobile app development"
+        ]
+      }
+    }
+  },
+  "IE: Smart Industry": {
+    "faculty": "Engineering and Information Technology",
+    "description": " Artificial Intelligence (AI) and data analytics have become new alternative methods that are frequently used for systems optimization in the era of Industry 4.0, for example in process automation, e-commerce, business intelligence and analytics, and predictive maintenance. Utilizing AI and data analytics for improving engineering and business systems requires good understanding and competences in operations management, logistics and supply chain, human factors, economy, and optimization methods. These competences assure that the investment on new sophisticated technology implementation could lead the organization to higher performance and efficiency, along with better sustainability. In order to support the Indonesian government’s initiatives in Industry 4.0 and circular economy, along with the needs of digital talents that rising in the future of works, Industrial Engineering: Smart Industry of Swiss German University facilitates with the curriculum and conducts collaborative programs with industry and partner universities that are aligned with the needs of human capitals that have competences to optimize the performance of engineering and business systems with artificial intelligence and data analytics.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dr. Eng. Aditya T. Pratama, S.Si., M.T — Head",
+      "Ir. Triarti Saraswati, M.Eng — Deputy Head",
+      "Win Sukardi — Lecturer",
+      "Assoc. Prof. Dr. Tanika D. Sofianti, S.T., M.T — Lecturer",
+      "Gunawan Zuardi, M.T, M.Sc — Lecturer",
+      "Ivan Kurniawan, S.T., B.Eng., M.T., M.B.A — Lecturer",
+      "Dr. Yunita Umniyati, S.Si., M.Sc — Lecturer",
+      "Dr. Eka Budiarto, S.T., M.Sc — Lecturer",
+      "Leonard Rusli, Ph.D — Lecturer",
+      "Dena Hendriana, B.Sc., S.M., Sc.D — Lecturer",
+      "Dr. Ir. Henry Nasution, M.T, IPP — Lecturer",
+      "Eduardo Wangsa Saputra, S.T., B.Eng., M.T — Lecturer",
+      "Dr. Hery Sutanto, S.Si., M.Si — Lecturer",
+      "Dr. Nurdayadi, MSc — Lecturer"
+    ],
+    "career_prospects": [
+      "Digital Transformation Team Leader",
+      "AI and Data Analytics Specialist for Business and Industry",
+      "Predictive Maintenance Engineer",
+      "Smart System Designer for Manufacturing, Logistics, and Supply Chain",
+      "Additive Manufacturing Engineer",
+      "Occupational Health and Safety Manager (Smart Technologies)",
+      "Quality Engineer / Quality Assurance Inspector",
+      "Automation and Consulting Engineer"
+    ],
+    "keywords": [
+      "industrial engineering",
+      "smart industry",
+      "AI",
+      "data analytics",
+      "industry 4.0",
+      "automation",
+      "optimization",
+      "digital transformation"
+    ],
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "english 1",
+          "algorithms and object-oriented programming & lab",
+          "data science programming language",
+          "relational database design & lab",
+          "discrete mathematics",
+          "web design fundamental",
+          "analytical & creative thinking",
+          "statistics for data science",
+          "linux fundamental & computer network",
+          "extracurricular courses",
+          "german language and culture 1"
+        ]
+      },
+      "semester 2": {
+        "courses": [
+          "english 2",
+          "data structures & algorithms",
+          "server-side web programming",
+          "web development life cycle project",
+          "introduction to entrepreneurship",
+          "ethics & religious philosophy",
+          "linear algebra for data science",
+          "probability for data science",
+          "system admin & maintenance",
+          "extracurricular courses",
+          "german language and culture 2"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "english 3",
+          "client-side front-end web development",
+          "personal & professional development",
+          "non-relational database design & lab",
+          "advanced object-oriented programming",
+          "computer security & lab",
+          "ui/ux design & evaluation",
+          "backend system administration",
+          "extracurricular courses",
+          "german language and culture 3"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "english 4",
+          "back-end web development & tools",
+          "framework-based web programming",
+          "pancasila & civic",
+          "network security & lab",
+          "mobile web service & api (middleware)",
+          "digital marketing for entrepreneurship",
+          "applied data analytics for business",
+          "extracurricular courses",
+          "german language and culture 4"
+        ]
+      },
+      "semester 5": {
+        "courses": [
+          "joint degree (hochschule albstadt-sigmaringen)",
+          "social engineering",
+          "introduction to cyberpsychology",
+          "digital forensics",
+          "offensive security methods",
+          "cyber security awareness and behaviour",
+          "it security management",
+          "mobile and cloud forensics",
+          "extracurricular courses",
+          "german as foreign language",
+          "joint degree (fachhochschule südwestfalen)",
+          "internship 1"
+        ]
+      },
+      "semester 6": {
+        "courses": [
+          "joint degree (hochschule albstadt-sigmaringen)",
+          "internship 2 (6 months)",
+          "joint degree (fachhochschule südwestfalen)",
+          "basics of electrical engineering",
+          "introduction to project management",
+          "model based design",
+          "internship 2 / project-based learning (1.5 months)",
+          "elective subjects",
+          "current developments in business it: basics in python",
+          "advanced programming",
+          "information systems (is) project"
+        ]
+      },
+      "semester 7": {
+        "courses": [
+          "english 5",
+          "research methodology",
+          "bahasa indonesia",
+          "data mining",
+          "native mobile app development & lab",
+          "secure software development life cycle",
+          "business development",
+          "business coaching",
+          "full-stack data analytics project in business",
+          "optional for joint degree (fachhochschule südwestfalen)",
+          "internship in germany"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "thesis",
+          "professional competence assessment (pca)",
+          "character and professional development program (cpdp)",
+          "cross-platform mobile app development"
+        ]
+      }
+    }
+  },
+  "IE: Eco Industry": {
+    "faculty": "Engineering and Information Technology",
+    "description": "The emerging world issues related to sustainability drive industries to achieve cleaner production. With the use of modern tools, concepts, methods, and technologies, green engineering and technology help build sustainable and eco-friendly designs and innovations. The concept aligns with the United Nations 2030 agenda for sustainable development goals. In accordance with this issue, Industrial Engineering: Eco Industry of Swiss German University directs students to have a sustainable mindset based on economic, environmental, and social perspectives. The field of study includes green economy, circular economy, supply chain management, lean operations, and maintenance management, and is equipped with knowledge from digital and technological aspects such as artificial intelligence (AI) and data analytics. This set of competences ensures that graduates are well-prepared for the competitive industrial market, especially in the face of the Industry 4.0 era. The latest added value is SGU’s collaboration with the University of Missouri Kansas City (UMKC) to provide a fast-track program.",
+    "lecturers": [
+      "Dr. Maulahikmah Galinium, S.Kom, M.Sc — Dean of Faculty of Engineering and Information Technology",
+      "Dr. Eng. Aditya T. Pratama, S.Si., M.T — Head",
+      "Ir. Triarti Saraswati, M.Eng — Deputy Head",
+      "Win Sukardi — Lecturer",
+      "Assoc. Prof. Dr. Tanika D. Sofianti, S.T., M.T — Lecturer",
+      "Gunawan Zuardi, M.T, M.Sc — Lecturer",
+      "Ivan Kurniawan, S.T., B.Eng., M.T., M.B.A — Lecturer",
+      "Dr. Yunita Umniyati, S.Si., M.Sc — Lecturer",
+      "Dr. Eka Budiarto, S.T., M.Sc — Lecturer",
+      "Leonard Rusli, Ph.D — Lecturer",
+      "Dena Hendriana, B.Sc., S.M., Sc.D — Lecturer",
+      "Dr. Ir. Henry Nasution, M.T, IPP — Lecturer",
+      "Eduardo Wangsa Saputra, S.T., B.Eng., M.T — Lecturer",
+      "Dr. Hery Sutanto, S.Si., M.Si — Lecturer",
+      "Dr. Nurdayadi, MSc — Lecturer"
+    ],
+    "career_prospects": [
+      "Sustainability and Circular Economy Project Leader",
+      "AI and Data Analytics Specialist for Sustainable Systems",
+      "Predictive Maintenance Engineer for Sustainability",
+      "Green Manufacturing Engineer",
+      "Reverse Logistics and Supply Chain Designer",
+      "Energy Efficiency Engineer",
+      "Waste Management Engineer",
+      "Environmental and Safety Manager"
+    ],
+    "keywords": [
+      "industrial engineering",
+      "eco industry",
+      "sustainability",
+      "circular economy",
+      "green engineering",
+      "AI",
+      "data analytics",
+      "environmental management"
+    ],
+    "international academic experience": {
+      "joint degree program": {
+        "partner university": "fachhochschule südwestfalen",
+        "duration": "approximately 7 months",
+        "degrees awarded": [
+          "sarjana teknik (s.t.)",
+          "bachelor of engineering (b.eng.)"
+        ]
+      },
+      "internship program": "ensures students receive global professional experience.",
+      "student exchange": "provides opportunities to experience student exchange in several european and asian countries.",
+      "global career opportunities": "prepares students for global careers in local and international companies.",
+      "fast track program": "accelerate success with the sgu - university of missouri kansas city fast track program."
+    },
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "english 1",
+          "calculus",
+          "physics 1",
+          "physics 1 laboratory",
+          "algorithm, programming and data structure",
+          "chemistry 1",
+          "material science",
+          "technical drawing",
+          "introduction to industrial engineering",
+          "extracurricular courses",
+          "german language and culture 1"
+        ]
+      },
+      "semester 2": {
+        "courses": [
+          "english 2",
+          "linear algebra",
+          "physics 2",
+          "statics and strength of materials",
+          "modern manufacturing process",
+          "modern manufacturing process lab + work",
+          "chemistry 2",
+          "statistics and lab",
+          "pancasila and civic",
+          "ethics and religious philosophy",
+          "extracurricular courses",
+          "german language and culture 2"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "english 3",
+          "operation research",
+          "production planning and control + lab",
+          "ergonomics and work system design + lab",
+          "cost control and analysis",
+          "indonesian language and culture",
+          "economy and engineering economy",
+          "product lifecycle management",
+          "extracurricular courses",
+          "german language and culture 3"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "english 4",
+          "logistics and supply chain system",
+          "quality control and assurance + lab",
+          "human machine interaction",
+          "lean operations",
+          "optimization with artificial intelligence",
+          "system modeling and simulation + lab",
+          "integrated industrial engineering laboratory"
+        ]
+      },
+      "semester 5": {
+        "courses": [
+          "internship 1 (indonesia)",
+          "industrial automation",
+          "circular economy and sustainability",
+          "project management",
+          "service system engineering and management",
+          "elective subject 1",
+          "elective subject 2",
+          "extracurricular courses",
+          "german language and culture 4"
+        ]
+      },
+      "semester 6": {
+        "courses": [
+          "basic of electrical engineering",
+          "introduction to project management",
+          "model based design",
+          "internship 2*",
+          "list of elective (fh soest)",
+          "current developments in business it: basics in python",
+          "advanced programming",
+          "is-project"
+        ]
+      },
+      "semester 7": {
+        "courses": [
+          "english 5",
+          "research methodology",
+          "industrial engineering system design",
+          "enterprise and industrial information system",
+          "human capital management and organizational behaviour",
+          "business intelligence, analytics, and data science",
+          "industrial system maintenance",
+          "facilities planning and analysis",
+          "optional: internship in germany"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "professional competence assessment (pca)",
+          "character and professional development program",
+          "thesis"
+        ]
+      }
+    }
+  },
+  "Business and Management": {
+    "faculty": "Business and Communication",
+    "description": "The Business Management Study Program offers three concentrations: Digital Marketing, Finance and Business Analytic, and Innovative Entrepreneurship. Each of these concentrations provides the necessary knowledge, skills, and confidence to succeed in management roles. Students are also enriched with International Certification, Entrepreneurship Development Program, and International Computer-Based training to thrive in a constantly changing and competitive global business environment.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM.",
+      "Dr. Munawaroh Zainal, S.E., M.M.",
+      "Mochammad Riyadh Rizky Adam, S.T., M.S.M.",
+      "Dr. Anthon Stevanus Tondo, S.E., M.B.A.",
+      "Margaretha T.P. Lingga, MM.",
+      "Dipl-Ing Panji Mukadis, S.Kom., MM",
+      "Yudhistira Pratama"
+    ],
+    "career_prospects": [
+      "Entrepreneur",
+      "Brand Manager",
+      "Customer Relationship Manager",
+      "Public Relations Manager",
+      "Export/Import Manager",
+      "Finance Manager",
+      "Managerial positions in multinational companies (BMW, Siemens, DBS, Ernst & Young, Coca-Cola)"
+    ],
+    "keywords": [
+      "business",
+      "management",
+      "marketing",
+      "entrepreneurship",
+      "finance",
+      "analytics"
+    ]
+  },
+  "Business Accounting": {
+    "faculty": "Business and Communication",
+    "description": "The Business Accounting program at Swiss German University is designed to prepare students with practical and industry-relevant accounting skills. The curriculum aligns with professional standards and emphasizes hands-on experience through internships in both public accounting firms (KAP) and non-KAP companies. Students gain exposure to modern accounting tools such as SAP, audit applications, and Accurate, ensuring readiness for real-world challenges and opportunities for international certification.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM.",
+      "Agung Joni Saputra, S.E., M.Akt., Cert DA.",
+      "Dr. Nurdayadi, MSc.",
+      "Alfiandri, MAcc. CA",
+      "Neneng Djuaeriah",
+      "Indra Pratama",
+      "Sumini Salem"
+    ],
+    "career_prospects": [
+      "Auditor",
+      "Tax Specialist",
+      "Corporate Accountant",
+      "Controller",
+      "Financial Analyst",
+      "Financial Consultant"
+    ],
+    "keywords": [
+      "accounting",
+      "finance",
+      "auditing",
+      "consulting",
+      "taxation",
+      "business"
+    ],
+    "accounting curriculum": {
+      "year 1": {
+        "foundation courses and practical workshops": "Provide students with hands-on sessions on basic accounting software, data analysis, and financial reporting tools.",
+        "career exploration": "Career workshops, networking events, and industry guest speaker sessions to introduce students to various career paths in accounting."
+      },
+      "year 2": {
+        "advanced accounting studies": "In-depth courses emphasizing real-world applications and case studies.",
+        "professional development": "Workshops on effective communication, teamwork, and leadership skills, preparing students for practical engagement and collaboration in the workplace.",
+        "internship preparation": "Workshops and guidance on preparing resumes, developing professional skills, and seeking internship opportunities for practical exposure."
+      },
+      "year 3": {
+        "capstone projects": "Undertaking practical capstone projects that require comprehensive financial analysis, strategic planning, or auditing procedures, allowing students to apply their accumulated knowledge to real-world business scenarios.",
+        "professional certifications": "Pursuing relevant professional certifications, such as in auditing, Accurate, and SAP to enhance career prospects and credibility in the accounting industry.",
+        "alumni networking": "Engaging with alumni networks and professional accounting associations to expand professional connections and explore potential career opportunities.",
+        "career seminars": "Engaging with industry professionals through seminars and panel discussions to gain insights into the current trends and demands in the accounting field.",
+        "internship (mbkm) experience": "Participating in a structured internship program with local or multinational accounting firms or businesses to gain hands-on experience in applying accounting principles in real business environments."
+      },
+      "year 4": {
+        "first half": {
+          "advanced skill development": "Participating in advanced workshops or seminars focusing on data analytics, financial software proficiency, and advanced accounting practices to enhance practical skills and stay updated with industry advancements.",
+          "final project": "Engaging in research projects related to current accounting trends or emerging issues, contributing to the academic and practical discourse within the accounting field.",
+          "internship (mbkm) experience": "Participating in a structured internship program with local or multinational accounting firms or businesses to gain hands-on experience in applying accounting principles in real business environments."
+        }
+      }
+    },
+    "notable alumni": [
+      {
+        "name": "mita restiana",
+        "high school": "sman 3 tangerang",
+        "job": "head of finance and accounting",
+        "workplace": "sentientlabs.co"
+      },
+      {
+        "name": "nadella maharani sembalangi",
+        "high school": "sman 3 tangerang",
+        "job": "supervisor fund admin",
+        "workplace": "hsbc"
+      },
+      {
+        "name": "veren hermawan",
+        "high school": "sma stella maris bsd",
+        "job": "tax specialist - ssea & hktw",
+        "workplace": "the kraft heinz company"
+      }
+    ]
+  },
+  "Digital Communication & Media Arts": {
+    "faculty": "Business and Communication",
+    "description": "The Digital Communication & Media Arts (DCMA) program at Swiss German University combines creativity, digital media, arts, technology, and strategic communication. Offered under a 2+2 Double Degree scheme with Ming Chuan University in Taipei, students spend two years at SGU and two years at MCU. The curriculum emphasizes digital content creation, multimedia production, digital marketing, visual communication, and media strategy through hands-on projects, internships, and international exposure to prepare graduates for a dynamic, tech-driven communications industry.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM.",
+      "Loina Lalolo Krina Perangin-angin, M.Si.",
+      "Deborah Nauli S., Ph.D."
+    ],
+    "career_prospects": [
+      "Digital Marketing Manager",
+      "Media Director",
+      "Creative Director",
+      "Strategic Communication Consultant",
+      "Digital Transformation Specialist",
+      "Film and Media Producer",
+      "Content Creator"
+    ],
+    "keywords": [
+      "digital communication",
+      "media arts",
+      "creative",
+      "marketing",
+      "visual communication",
+      "strategy"
+    ]
+  },
+  "curriculum": {
+    "semester 1": {
+      "courses": [
+        "english 1",
+        "calculus & linear algebra 1",
+        "physics 1",
+        "physics 1 laboratory",
+        "electrical engineering 1",
+        "electrical engineering 1 laboratory",
+        "biology",
+        "biology laboratory",
+        "chemistry 1",
+        "chemistry 1 laboratory",
+        "introduction to programming",
+        "german language and culture 1"
+      ]
+    },
+    "semester 2": {
+      "courses": [
+        "english 2",
+        "ethics and religious philosophy",
+        "calculus & linear algebra 2",
+        "physics 2",
+        "physics 2 laboratory",
+        "electrical engineering 2",
+        "electrical engineering 2 laboratory",
+        "chemistry 2",
+        "chemistry 2 laboratory",
+        "algorithm & data structure",
+        "german language and culture 2"
+      ]
+    },
+    "semester 3": {
+      "courses": [
+        "internship 1 (indonesia)",
+        "cytology & histology",
+        "applied mathematics",
+        "electronics",
+        "electronics laboratory",
+        "phytochemistry",
+        "computer-aided design",
+        "introduction to biomedical engineering",
+        "biomedical physics",
+        "english 3"
+      ]
+    },
+    "semester 4": {
+      "courses": [
+        "english 4",
+        "pancasila & civic",
+        "introduction to engineering statistics",
+        "sensor & measurement system",
+        "biochemistry",
+        "biochemistry laboratory",
+        "biomedical devices network",
+        "microbiology",
+        "biomaterials",
+        "german language and culture 3"
+      ]
+    },
+    "semester 5": {
+      "courses": [
+        "indonesian language",
+        "biomedical instrumentation",
+        "biomedical instrumentation laboratory",
+        "microcontroller",
+        "anatomy & physiology",
+        "anatomy & physiology laboratory",
+        "digital system",
+        "herbal and traditional industry",
+        "pharmaceutical material & formulation",
+        "analytical instrumentation"
+      ]
+    },
+    "semester 6": {
+      "courses": [
+        "internship 2 (abroad)",
+        "elective 5",
+        "elective 5",
+        "biomaterials 2 (fhsw)",
+        "statistics (fhsw)",
+        "medical industry 1",
+        "medical industry 2"
+      ]
+    },
+    "semester 7": {
+      "courses": [
+        "english 5",
+        "entrepreneurship",
+        "research methodology",
+        "bioinformatics (computational biology)",
+        "artificial intelligence",
+        "biomedical system design",
+        "genomics, transcriptomics, proteomics and metabolomics",
+        "medical biotechnology and biomedical diagnostics",
+        "enzyme biochemistry"
+      ]
+    },
+    "semester 8": {
+      "courses": [
+        "professional competence assessment (pca)",
+        "thesis",
+        "introduction to clinical engineering",
+        "character and professional development program"
+      ]
+    }
+  },
+  "Digital Communication & Media": {
+    "faculty": "Business and Communication",
+    "description": "The Digital Communication & Media program at Swiss German University equips students with essential skills to excel in a digital-first world. The curriculum covers digital communication strategies, media technology, and information systems, emphasizing public relations, digital journalism, digital marketing, multimedia content production, and media management. Students engage in hands-on learning through internships and research while gaining a global perspective in SGU’s multicultural environment.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM — Dean of Faculty of Business and Communication",
+      "Loina Lalolo Krina Perangin-angin, M.Si."
+    ],
+    "career_prospects": [
+      "Digital Marketing Manager",
+      "Social Media Manager",
+      "Content Strategist",
+      "Public Relations Specialist",
+      "UX Writer / Digital Copywriter",
+      "Data & Media Analyst",
+      "Multimedia Producer",
+      "Brand Strategist",
+      "Corporate Communication Manager",
+      "Performance Marketing Specialist"
+    ],
+    "keywords": [
+      "digital communication",
+      "media",
+      "marketing",
+      "journalism",
+      "content creation",
+      "public relations",
+      "analytics"
+    ]
+  },
+  "total program credits": {
+    "total compulsory": "144 sks",
+    "total ects": "204 ects",
+    "subject taken outside of study program": 15,
+    "subject outside of sgu": 10
+  },
+  "Global Strategic Communication": {
+    "faculty": "Business and Communication",
+    "description": "The Global Strategic Communications study program at SGU provides the latest curriculum to prepare students, so they are ready to face the globalization era. It offers diverse subjects, ranging from digital marketing, political communication, business law, to the study of media technology, public relations, journalism, and many more with an emphasis on international exposure.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM — Dean of Faculty of Business and Communication",
+      "Deborah Nauli S., Ph.D — Senior Lecturer of Global Strategic Communications",
+      "Aulia Putri Meidina, S.Sos., M.A — Lecturer of Global Strategic Communications"
+    ],
+    "career_prospects": [
+      "Public Relations Specialist",
+      "Journalist",
+      "Communication Strategist",
+      "Media Relations Officer",
+      "Corporate Communication Executive",
+      "International Communication Consultant"
+    ],
+    "keywords": [
+      "strategic communication",
+      "public relations",
+      "journalism",
+      "media",
+      "international",
+      "culture"
+    ],
+    "international academic experience": {
+      "joint degree program": {
+        "partner university": "fachhochschule südwestfalen",
+        "duration": "approximately 1 year",
+        "degrees awarded": [
+          "sarjana ilmu komunikasi (s.ikom)",
+          "bachelor of arts (b.arts)"
+        ]
+      },
+      "international learning programs": [
+        {
+          "partner university": "hochschule osnabrück",
+          "duration": "one semester"
+        },
+        {
+          "partner university": "solbridge international business school",
+          "duration": "one semester"
+        }
+      ],
+      "internship program": "ensures students receive global professional experience."
+    },
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "english 1",
+          "introduction to pr",
+          "introduction to journalism",
+          "communication history and theory",
+          "business communication",
+          "analytical & creative thinking",
+          "introduction to ict for business",
+          "eurocurricular courses",
+          "german language and culture 1"
+        ]
+      },
+      "semester 2": {
+        "courses": [
+          "ethic and religious philosophy",
+          "english 2",
+          "principles of visual communication design",
+          "public speaking & presentation skills",
+          "photography",
+          "fundamentals of marketing management",
+          "basic and narrative writing",
+          "eurocurricular courses",
+          "german language and culture 2"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "internship 1 (local)",
+          "interpersonal communication",
+          "organizational communication",
+          "advanced writing for strategic communication",
+          "media psychology"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "pancasila and civic",
+          "english 3",
+          "introduction to communication research",
+          "media management",
+          "pr management",
+          "political communication",
+          "mass communication",
+          "fundamentals of digital marketing",
+          "eurocurricular courses",
+          "german language and culture 3"
+        ]
+      },
+      "semester 5": {
+        "courses": [
+          "indonesian language",
+          "english 4",
+          "event management",
+          "statistics for communication",
+          "business law",
+          "business creation (entrepreneurship)",
+          "intercultural communication",
+          "enterprise resource planning (net economy)*",
+          "challenges in international management*",
+          "eurocurricular courses",
+          "german language and culture 4"
+        ]
+      },
+      "semester 6": {
+        "courses": [
+          "internship 2 (abroad)",
+          "current business it*"
+        ]
+      },
+      "semester 7": {
+        "courses": [
+          "english 5",
+          "ict - based human behaviour",
+          "multimedia production",
+          "strategic corporate communication",
+          "research methodology",
+          "media sociology",
+          "digital english journalism certification (the jakarta post)"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "portfolio preparation",
+          "professional competence assessment",
+          "thesis",
+          "communication audit",
+          "character and professional development program (cpdp)"
+        ]
+      }
+    }
+  },
+  "Hotel and Tourism Management": {
+    "faculty": "Business and Communication",
+    "description": "Hotel Management is an area of study that covers a wide range of topics concerned with the operational aspects of hoteliery. SGU Hotel & Tourism Management graduates will earn a bachelor’s degree in management under the business administration faculty. Given that the world of hospitality and tourism is growing rapidly both in Indonesia and abroad, SGU graduates can get excellent career prospects in managerial level positions. You will have career opportunities to work in national and multinational organizations within the hospitality industry.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM — Dean of Faculty of Business and Communication",
+      "Robert La Are SST. Par, M. Par. — Head",
+      "Rano Abryanto — Deputy Head"
+    ],
+    "career_prospects": [
+      "Hotel Manager",
+      "Restaurant Manager",
+      "Food and Beverage Supervisor",
+      "Travel and Tourism Consultant",
+      "Event and Marketing Coordinator",
+      "Hospitality Entrepreneur"
+    ],
+    "keywords": [
+      "hotel",
+      "tourism",
+      "hospitality",
+      "management",
+      "travel",
+      "international",
+      "service"
+    ],
+    "international academic experience": {
+      "joint degree programs": [
+        {
+          "partner university": "fachhochschule südwestfalen",
+          "duration": "approximately 6 months",
+          "degrees awarded": [
+            "sarjana manajemen (s.m.)",
+            "bachelor of arts (b.arts)"
+          ]
+        },
+        {
+          "partner university": "imi switzerland",
+          "duration": "approximately 1 year",
+          "degrees awarded": [
+            "sarjana manajemen (s.m.)",
+            "bachelor of arts (b.arts)"
+          ]
+        }
+      ],
+      "internship program": "ensures students receive global professional experience."
+    },
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "english 1",
+          "business communication *",
+          "analytical and creative thinking *",
+          "intro to ict for business *",
+          "fundamental economics *",
+          "principle accounting *",
+          "intro to tourism management",
+          "workplace, safety, and security in hospitality",
+          "german language and culture 1"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "internship 1 (local)",
+          "professional development"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "english 2",
+          "ethnic & religious philosophy",
+          "intro to entrepreneurship *",
+          "business math / business statistic",
+          "human resources management",
+          "hotel finance administration",
+          "operation management (front office)",
+          "operation management (housekeeping)",
+          "german language and culture 2"
+        ]
+      },
+      "semester 5": {
+        "courses": [
+          "english 4",
+          "bahasa indonesia",
+          "tourism impact, planning and management",
+          "restaurant operation management 2",
+          "kitchen operation management 2",
+          "pastry",
+          "elective 1",
+          "elective 2",
+          "german language and culture 4"
+        ]
+      },
+      "semester 6": {
+        "courses": [
+          "portfolio preparation",
+          "professional competence assessment",
+          "hospitality strategic management",
+          "character & professional development program (cpdp)",
+          "hospitality business plan"
+        ]
+      },
+      "semester 7": {
+        "courses": [
+          "continuous professional development **",
+          "applied research **",
+          "global marketing management **",
+          "digital and social media management **",
+          "hospitality leadership & innovation **",
+          "sustainable tourism plan development **",
+          "pathway dissertation / thesis project **"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "internship 2 (at switzerland) **"
+        ]
+      }
+    }
+  },
+  "International Culinary Business": {
+    "faculty": "Business and Communication",
+    "description": "The culinary business has become the centre of attention in recent years. Young people with all their creativity have succeeded in reviving the culinary business in Indonesia, for example the trend of coffee shops, cafes, cloud kitchens, etc. The International Culinary Business study program is here to facilitate those of you who not only want to hone your cooking skills, but also aspire to become a culinary entrepreneur. Your cooking and business skills will be honed from basic to advanced level.",
+    "lecturers": [
+      "Dr. Nila Krisnawati Hidayat, SE., MM — Dean of Faculty of Business and Communication",
+      "Robert La Are SST. Par, M. Par. — Head",
+      "Rano Abryanto — Deputy Head"
+    ],
+    "career_prospects": [
+      "Chef Owner (Restaurant, Café, Bakery)",
+      "Professional Chef",
+      "Culinary Consultant",
+      "Food Stylist",
+      "Catering Service Owner",
+      "Cruise Staff",
+      "Culinary Entrepreneur"
+    ],
+    "keywords": [
+      "culinary",
+      "business",
+      "hospitality",
+      "management",
+      "chef",
+      "entrepreneurship",
+      "gastronomy"
+    ],
+    "international academic experience": {
+      "joint degree program": {
+        "partner university": "imi switzerland",
+        "duration": "approximately 1 year",
+        "degrees awarded": [
+          "sarjana manajemen (s.m.)",
+          "bachelor of arts (b.arts)"
+        ]
+      },
+      "internship program": "ensures students receive global professional experience."
+    },
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "english 1",
+          "business communication *",
+          "analytical and creative thinking *",
+          "intro to ict for business *",
+          "fundamental economics *",
+          "principle accounting *",
+          "intro to tourism management",
+          "workplace, safety, and security in hospitality"
+        ]
+      },
+      "semester 2": {
+        "courses": [
+          "english 2",
+          "ethnic & religious philosophy",
+          "intro to entrepreneurship *",
+          "human resources management",
+          "hotel finance administration",
+          "kitchen operation management 1",
+          "pastry operation management 1",
+          "food preparation and nutrition",
+          "catering and banqueting management"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "internship 1"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "english 3",
+          "pancasila & civic",
+          "restaurant operation management",
+          "kitchen operation management 2",
+          "pastry operation management 2",
+          "food & beverage cost control",
+          "consumer behavior",
+          "german language and culture 3"
+        ]
+      },
+      "semester 5": {
+        "courses": [
+          "english 4",
+          "bahasa indonesia",
+          "feasibility study in restaurant",
+          "fb product development",
+          "european culinary techniques",
+          "professional pastry techniques",
+          "elective 1 (dd subject list)",
+          "elective 2 (dd subject list)",
+          "german language and culture 4"
+        ]
+      },
+      "semester 6": {
+        "courses": [
+          "portfolio preparation",
+          "professional competence assessment",
+          "hospitality strategic management",
+          "character & professional development program (cpdp)",
+          "hospitality business plan"
+        ]
+      },
+      "semester 7": {
+        "courses": [
+          "international food and culture",
+          "business language and culture: introductory german",
+          "culinary leadership and entrepreneurship",
+          "digital culinary business application",
+          "continuous professional development",
+          "gastronomy production",
+          "culinary concept development/ thesis project"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "internship 2 (at switzerland) **"
+        ]
+      }
+    }
+  },
+  "Pharmaceutical Engineering": {
+    "faculty": "Life Sciences and Technology",
+    "description": "Pharmaceutical Chemical Engineering is a concentration of the study program Chemical Engineering, with a focus on design, operation, and optimization of processes in pharmaceutical industries. You will learn both science and engineering. Not only the pharmaceutical chemistry, biology, and microbiology to formulate medicines, herbal medicines, or cosmetics, but also how to carry out the production process efficiently, material & energy balance, feasibility standards, plant design, and many more.",
+    "lecturers": [
+      "Dr. Hery Sutanto, S.Si., M.Si — Dean of Faculty of Life Science & Technology",
+      "Dr.-Ing. Diah Indriani Widiputri, S.T., MSc — Head",
+      "Silvya Yusri, S.Si., M.T. — Deputy Head",
+      "Dr.-Ing. Samuel P. Kusumocahyo — Lecturer (Rector of SGU)",
+      "Dr. Evita H. Legowo — Lecturer",
+      "Dr. Irvan Setiadi Kartawiria, S.T., M.Sc. — Lecturer"
+    ],
+    "career_prospects": [
+      "Pharmaceutical Process Engineer",
+      "Chemical Engineer",
+      "Cosmetic Product Developer",
+      "Pharmaceutical Equipment Specialist",
+      "Consultant",
+      "Researcher",
+      "Lecturer",
+      "Entrepreneur"
+    ],
+    "keywords": [
+      "pharmaceutical",
+      "chemical engineering",
+      "bioprocess",
+      "cosmetics",
+      "manufacturing",
+      "research"
+    ],
+    "international academic experience": {
+      "joint degree programs": [
+        {
+          "partner university": "fachhochschule südwestfalen",
+          "duration": "approximately 6 months",
+          "degrees awarded": [
+            "sarjana teknik (s.t.)",
+            "bachelor of engineering (b.eng.)"
+          ]
+        },
+        {
+          "partner university": "hochschule albstadt-sigmaringen",
+          "duration": "approximately 1 year",
+          "degrees awarded": [
+            "sarjana teknik (s.t.)",
+            "bachelor of science (b.sc.)"
+          ]
+        }
+      ],
+      "internship program": "ensures students receive global professional experience.",
+      "fast track program": "accelerate success with the sgu - university of missouri kansas city fast track program."
+    },
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "english",
+          "calculus and linear algebra 1",
+          "physics 1",
+          "physics 1 laboratory",
+          "chemistry 1",
+          "chemistry 1 laboratory",
+          "introduction to information technology",
+          "introduction to electrical engineering",
+          "biology 1",
+          "indonesian language",
+          "german language and culture 1"
+        ]
+      },
+      "semester 2": {
+        "courses": [
+          "english",
+          "calculus and linear algebra 2",
+          "physics 2",
+          "physics 2 laboratory",
+          "chemistry 2",
+          "chemistry 2 laboratory",
+          "engineering statistics",
+          "introduction to chemical engineering",
+          "microbiology 1",
+          "entrepreneurship",
+          "ethics and religious philosophy",
+          "german language and culture 2"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "internship 1 (indonesia)",
+          "good manufacturing practice (gmp) and pharmaceutical code",
+          "material and energy sciences",
+          "analytical instrumentation",
+          "pharmaceutical chemistry",
+          "pharmaceutical chemistry laboratory",
+          "applied mathematics",
+          "thermodynamics",
+          "thermodynamics laboratory",
+          "fluid mechanics",
+          "engineering economics and analysis"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "english",
+          "pancasila and civic",
+          "unit operations",
+          "heat transfer",
+          "transport phenomena",
+          "physical chemistry",
+          "chemical reactions and kinetics",
+          "mechanical operations",
+          "separation laboratory",
+          "german language and culture 3"
+        ]
+      },
+      "semester 5": {
+        "courses": [
+          "english 4",
+          "reactor engineering",
+          "pharmaceutical manufacturing technology",
+          "pharmaceutical manufacturing technology laboratory",
+          "physiochemistry",
+          "industrial and traditional industry",
+          "pharmaceutical material & formulation",
+          "process equipment design",
+          "introduction to chemical process industries",
+          "elective subject 1",
+          "bioprocess engineering",
+          "production planning inventory control",
+          "material science",
+          "supply chain management"
+        ]
+      },
+      "semester 6": {
+        "courses": [
+          "internship 2 (abroad) and returnee seminar",
+          "elective subject 2",
+          "elective subject 3"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "english 5",
+          "plant safety operations",
+          "research methodology",
+          "plant design",
+          "process control",
+          "critical utility & waste treatment",
+          "pharmaceutical product development",
+          "elective subject 4",
+          "pharmaceutical industry facility",
+          "pharmaceutical quality control system"
+        ]
+      },
+      "semester 9": {
+        "courses": [
+          "professional competence assessment (pca)",
+          "thesis",
+          "character and professional development program (cpdp)"
+        ]
+      }
+    }
+  },
+  "Food Technology": {
+    "faculty": "Life Sciences and Technology",
+    "description": " Food Technology is a branch of food science that addresses Production, preservation, quality control (QC), and research and development (R&D) of Food production.  At Food Technology (FT) SGU, you will experience the rich cultural blend of Indonesian, German, and Japanese influences, enhancing your understanding of global food culture. And Food Technology at Swiss German University (FT SGU) also is designed to provide students with a world-class education in food technology. Our faculty comprises leading experts, and our curriculum is designed to meet international standards.",
+    "why choose": [
+      " Integrative and Innovative Learning",
+      "International Double Degree Program",
+      "Professional Competence Certification",
+      "Student Centred Learning"
+    ],
+    "lecturers": [
+      "Dr. Hery Sutanto, S.Si., M.Si — Dean of Faculty of Life Science & Technology",
+      "Dr. Irvan Setiadi Kartawiria, S.T., M.Sc — Head",
+      "Della Rahmawati, S.Si, M.Si, PhD — Deputy Head",
+      "Dr. rer. nat. Filiana Santoso — Lecturer",
+      "Dr. Ir. Abdullah Muzi Marpaung, MP. — Lecturer",
+      "Maria D.P.T. Gunawan, M.Sc, Ph.D — Lecturer",
+      "Tabligh Permana, S.Si., M.Si. — Lecturer",
+      "Febbyandi Isnanda Pandiangan, S.Gz., M.Sc. — Lecturer",
+      "Elisabeth Kartika Prabawati, STP., MFoodSt., Ph.D — Lecturer"
+    ],
+    "career_prospects": [
+      "Food Product Developer",
+      "Quality Assurance Specialist",
+      "Food Safety Officer",
+      "Production Supervisor",
+      "Food Business Consultant",
+      "Researcher",
+      "Food Analyst",
+      "Entrepreneur"
+    ],
+    "unique traits": [
+      "High chance for career in multinational company or abroad",
+      "Also enter career in: Marketing, Business Development, Consultant, Auditor, Management, and even Owner (entrepreneur)",
+      "High rate of pursuing further education in Food and/or Business"
+    ],
+    "keywords": [
+      "food",
+      "technology",
+      "nutrition",
+      "processing",
+      "safety",
+      "packaging",
+      "innovation"
+    ],
+    "international academic experience": {
+      "dual degree programs": [
+        {
+          "partner university": "university of applied science south westphalia",
+          "country": "germany"
+        },
+        {
+          "partner university": "university of applied science albstadt-sigmaringen",
+          "country": "germany"
+        }
+      ],
+      "credit transfer programs": [
+        {
+          "partner university": "university of applied science albstadt-sigmaringen",
+          "country": "germany"
+        },
+        {
+          "partner university": "hokkaido university",
+          "country": "japan"
+        },
+        {
+          "partner university": "woosong university",
+          "country": "south korea"
+        }
+      ],
+      "training or research abroad": {
+        "partner university": "hokkaido university",
+        "country": "japan"
+      },
+      "international conference and competition support": "provides opportunities for students and fresh graduates to participate in international conferences and competitions."
+    },
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "english 1",
+          "introduction to information technology",
+          "indonesian language",
+          "pancasila and civic",
+          "constitutional courses",
+          "calculus & linear algebra 1",
+          "physics 1",
+          "biology 1",
+          "biology lab",
+          "chemistry 1",
+          "chemistry 1 lab",
+          "environmental courses",
+          "german language and culture 1"
+        ]
+      },
+      "semester 2": {
+        "courses": [
+          "english 2",
+          "ethics and religious philosophy",
+          "pancasila and civic",
+          "foundational courses",
+          "physics 2",
+          "chemistry 2",
+          "chemistry 2 lab",
+          "general biology",
+          "study program courses",
+          "microbiology",
+          "microbiology lab",
+          "introduction to food industry",
+          "extracurricular courses",
+          "german language and culture 2"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "english 3",
+          "internship 1",
+          "basic practice in food industry 1",
+          "food chemistry lab",
+          "food processing 1 lab",
+          "food microbiology lab",
+          "thermodynamics",
+          "material and energy solutions in food",
+          "environmental courses",
+          "german language and culture 3"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "english 4",
+          "food biodiversity",
+          "food nutrition",
+          "basic practice in food industry 2",
+          "food regulation",
+          "food analysis",
+          "food analysis lab",
+          "food material characteristics",
+          "environmental courses",
+          "german language and culture 4"
+        ]
+      },
+      "semester 5": {
+        "international_single_degree_sd": {
+          "courses": [
+            "food preservation & shelf life study",
+            "analytical instrumentation",
+            "sensory evaluation and consumer science",
+            "sensory evaluation and consumer science lab",
+            "food product development 1",
+            "good practices in food industry",
+            "food processing 2",
+            "elective courses (odd semester)",
+            "extracurricular courses",
+            "german language and culture 5"
+          ]
+        },
+        "dual_degree_southwestphalia_dd_swf": {
+          "courses": [
+            "food preservation & shelf life study",
+            "analytical instrumentation",
+            "sensory evaluation and consumer science",
+            "sensory evaluation and consumer science lab",
+            "food product development 1",
+            "good practices in food industry",
+            "food processing 2",
+            "elective courses (odd semester)",
+            "extracurricular courses",
+            "german language and culture 5",
+            "designated food study and communication",
+            "elective courses"
+          ]
+        },
+        "dual_degree_albstadt_sigmaringen_dd_as": {
+          "courses": [
+            "food preservation & packaging",
+            "analytical instrumentation",
+            "sensory evaluation and consumer science",
+            "food product development",
+            "food technology",
+            "hygiene and environmental health",
+            "protein technology",
+            "human nutrition - basics",
+            "physical food analysis",
+            "extracurricular courses",
+            "german language and culture 5"
+          ]
+        }
+      },
+      "semester 6": {
+        "international_single_degree_sd": {
+          "courses": [
+            "industrial internship and food study abroad",
+            "elective courses",
+            "study program courses"
+          ]
+        },
+        "dual_degree_southwestphalia_dd_swf": {
+          "courses": [
+            "industrial and international food study",
+            "practical seminar",
+            "soft skills"
+          ]
+        }
+      },
+      "semester 7": {
+        "courses": [
+          "study program courses",
+          "food product development 2",
+          "research methodology",
+          "experimental design & data analysis",
+          "food safety",
+          "quality control and assurance"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "professional competence assessment (pca)",
+          "character and professional development program (cpdp)",
+          "study program courses",
+          "thesis",
+          "seminar"
+        ]
+      }
+    }
+  },
+  "Medical Biotechnology": {
+    "faculty": "Life Sciences and Technology",
+    "description": "The Medical Biotechnology program at SGU equips students with advanced knowledge and hands-on experience in biotechnology applications for healthcare, genetics, and pharmaceuticals. Over 3.5 years of study (2 years in Indonesia and 1.5 years in Germany), students explore genomics, bioinformatics, and biomedical data science, supported by international exposure and a double degree from Aalen University of Applied Sciences, Germany. The program prepares graduates to contribute to drug discovery, diagnostics, and healthcare innovation globally.",
+    "lecturers": [
+      "Dr. Hery Sutanto, S.Si., M.Si — Dean of Faculty of Life Science & Technology",
+      "Aulia Arif Iskandar, S.T., M.T — Head",
+      "Dr. Muhammad Fathony — Lecturer",
+      "Kholis Audah, Ph.D — Lecturer",
+      "Fuad Ughi — Lecturer"
+    ],
+    "career_prospects": [
+      "Biotechnology Researcher",
+      "Biomedical Scientist",
+      "Pharmaceutical Research Associate",
+      "Bioinformatics Analyst",
+      "Clinical Laboratory Specialist",
+      "Medical Data Scientist",
+      "Healthcare Consultant",
+      "Research and Development Engineer"
+    ],
+    "keywords": [
+      "biotechnology",
+      "medical",
+      "genomics",
+      "bioinformatics",
+      "drug development",
+      "healthcare"
+    ]
+  },
+  "Sustainable Energy and Environment": {
+    "faculty": "Life Sciences and Technology",
+    "description": "Our current world concern is how life can continue a sustainable basis. This mainly refers to the fact that fossil fuels are predicted to run out in 2060 and the world temperatures continue to rise. Sustainable Energy & Environment, under the SGU Chemical Engineering Study Program, focuses on renewable energy, energy conservation, the environment, water resources and prepares the human resources needed for these developments, for Indonesia and for the world. In short, when you learn this, you will actively contribute to saving the future.",
+    "lecturers": [
+      "Dr. Hery Sutanto, S.Si., M.Si — Dean of Faculty of Life Science & Technology",
+      "Dr.-Ing. Diah Indriani Widiputri, S.T., MSc — Head",
+      "Silvya Yusri, S.Si., M.Si — Deputy Head",
+      "Dr.-Ing. Evita H. Legowo — Lecturer",
+      "Dr. Irvan Setiadi Kartawiria, S.T., M.Sc — Lecturer"
+    ],
+    "career_prospects": [
+      "Renewable Energy Engineer",
+      "Environmental Consultant",
+      "Sustainability Specialist",
+      "Energy Analyst",
+      "Water Resource Engineer",
+      "Researcher",
+      "Chemical Engineer",
+      "Entrepreneur"
+    ],
+    "keywords": [
+      "sustainability",
+      "energy",
+      "environment",
+      "renewable",
+      "chemical engineering",
+      "water resources"
+    ],
+    "international academic experience": {
+      "joint degree program": {
+        "partner university": "ernst abbe-hochschule jena",
+        "duration": "approximately 1 year",
+        "degrees awarded": [
+          "sarjana teknik (s.t.)",
+          "bachelor of science (b.sc.)"
+        ]
+      },
+      "internship program": "ensures students receive global professional experience.",
+      "student exchange": "provides opportunities to experience student exchange in several european and asian countries.",
+      "fast track program": "accelerate success with the sgu - university of missouri kansas city fast track program."
+    },
+    "curriculum": {
+      "semester 1": {
+        "courses": [
+          "english 1",
+          "calculus and linear algebra 1",
+          "physics 1",
+          "physics 1 laboratory",
+          "chemistry 1",
+          "chemistry 1 laboratory",
+          "introduction to information technology",
+          "introduction to electrical engineering",
+          "energy policy and conventional energy",
+          "indonesian language",
+          "german language and culture 1"
+        ]
+      },
+      "semester 2": {
+        "courses": [
+          "english 2",
+          "calculus and linear algebra 2",
+          "physics 2",
+          "physics 2 laboratory",
+          "chemistry 2",
+          "chemistry 2 laboratory",
+          "engineering statistics",
+          "introduction to environmental engineering",
+          "microbiology",
+          "ethics and religious philosophy",
+          "german language and culture 2"
+        ]
+      },
+      "semester 3": {
+        "courses": [
+          "english 3",
+          "internship 1 (indonesia)",
+          "materials and energy balance",
+          "analytical instrumentation",
+          "applied mathematics",
+          "renewable energy 1 (bioenergy-ocean)",
+          "thermodynamics",
+          "thermodynamics laboratory",
+          "transport phenomena",
+          "german language and culture 3"
+        ]
+      },
+      "semester 4": {
+        "courses": [
+          "english 4",
+          "unit operations",
+          "heat transfer",
+          "engineering economics and analysis",
+          "physical chemistry",
+          "chemical reactions and kinetics",
+          "renewable energy 2 (solar-wind-hydro)",
+          "numerical methods",
+          "separation technology",
+          "fluid mechanics"
+        ]
+      },
+      "semester 5": {
+        "courses": [
+          "environmental chemistry",
+          "waste treatment & resources efficiency",
+          "ecobalance",
+          "decentralized energy supply",
+          "environment & process metrology",
+          "water purification"
+        ]
+      },
+      "semester 6": {
+        "courses": [
+          "internship 2 (abroad)",
+          "returnee seminar"
+        ]
+      },
+      "semester 7": {
+        "courses": [
+          "english 5",
+          "plant design and energy modelling",
+          "research methodology",
+          "process control",
+          "hydrogen-nuclear energy",
+          "energy conservation and audit",
+          "process equipment design",
+          "entrepreneurship",
+          "bioprocess engineering",
+          "materials science",
+          "industrial electrical system"
+        ]
+      },
+      "semester 8": {
+        "courses": [
+          "professional competence assessment (pca)",
+          "thesis",
+          "character and professional development program (cpdp)",
+          "pancasila and civic"
+        ]
+      }
+    }
+  }
+}
